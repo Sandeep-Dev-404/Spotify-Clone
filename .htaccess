@@ -1,0 +1,20 @@
+Options +Indexes
+DirectoryIndex index.html
+
+# Enable CORS for audio files
+<FilesMatch "\.(mp3|wav|ogg)$">
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "GET, POST, OPTIONS"
+    Header set Access-Control-Allow-Headers "Content-Type"
+</FilesMatch>
+
+# Enable directory browsing for songs folder
+<Directory "songs">
+    Options +Indexes
+    IndexOptions FancyIndexing
+</Directory>
+
+# Set proper MIME types
+AddType audio/mpeg .mp3
+AddType audio/wav .wav
+AddType audio/ogg .ogg
