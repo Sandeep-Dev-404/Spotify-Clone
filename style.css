@@ -1,8 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+TC:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* Force fixed sizing - no scaling */
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px !important;
+    -webkit-text-size-adjust: none !important;
+    -moz-text-size-adjust: none !important;
+    text-size-adjust: none !important;
+}
+
+body {
+    font-size: 16px !important;
+    -webkit-text-size-adjust: none !important;
+    -moz-text-size-adjust: none !important;
+    text-size-adjust: none !important;
+    zoom: 1 !important;
+    transform: scale(1) !important;
 }
 
 body {
@@ -45,9 +63,9 @@ nav ul .fourth {
 }
 
 .logo img {
-    margin: 0.75rem 0 0 1.5rem;
-    height: 2.2rem;
-    max-height: 35px;
+    margin: 12px 0 0 25px !important;
+    height: 35px !important;
+    width: auto !important;
 }
 
 .home,
@@ -95,8 +113,8 @@ nav ul .fourth {
 }
 
 .input {
-    width: min(468px, 30vw);
-    height: 2.5rem;
+    width: 468px !important;
+    height: 41px !important;
     display: flex;
     position: relative;
 }
@@ -206,7 +224,7 @@ form:hover .visible {
 
 .buttons a {
     text-decoration: none;
-    font-size: 0.875rem;
+    font-size: 14px !important;
     font-family: "Montserrat", sans-serif;
     border: none;
     background-color: black;
@@ -567,7 +585,7 @@ footer {
 .trending {
     font-family: "Inter", sans-serif;
     font-weight: 700;
-    font-size: clamp(1.2rem, 2.5vw, 1.375rem);
+    font-size: 22px !important;
 }
 
 .trend-songs {
@@ -585,8 +603,8 @@ footer {
 .card {
     position: relative;
     overflow: visible;
-    width: clamp(160px, 12vw, 190px);
-    height: clamp(200px, 15vw, 235px);
+    width: 190px !important;
+    height: 235px !important;
 }
 
 .card:hover {
@@ -600,25 +618,25 @@ footer {
 }
 
 .card img {
-    width: clamp(140px, 10vw, 164px);
+    width: 164px !important;
     border: 1px solid transparent;
     border-radius: 19px;
-    height: clamp(150px, 12vw, 178px);
+    height: 178px !important;
     object-fit: cover;
 }
 
 .card h2 {
-    font-size: clamp(0.8rem, 1.2vw, 0.875rem);
-    padding-left: 0.5rem;
+    font-size: 14px !important;
+    padding-left: 8px;
     color: #f3f3f3;
     font-weight: 500;
     font-family: "Inter", sans-serif;
 }
 
 .card p {
-    font-size: clamp(0.7rem, 1vw, 0.75rem);
-    padding-top: 0.25rem;
-    padding-left: 0.5rem;
+    font-size: 12px !important;
+    padding-top: 4px;
+    padding-left: 8px;
     color: #b1b0b0;
     font-weight: 400;
     font-family: "Inter", sans-serif;
@@ -745,26 +763,27 @@ img{
 }
 /* Base responsive font sizing */
 html {
-    font-size: 16px;
+    font-size: 16px !important;
 }
 
 body {
-    font-size: 1rem;
-    -webkit-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    text-size-adjust: 100%;
+    font-size: 16px !important;
+    -webkit-text-size-adjust: none !important;
+    -moz-text-size-adjust: none !important;
+    text-size-adjust: none !important;
 }
 
 /* Prevent font scaling on mobile */
 @media screen and (max-width: 768px) {
     html {
-        font-size: 14px;
+        font-size: 16px !important;
     }
     
     body {
-        -webkit-text-size-adjust: none;
-        -moz-text-size-adjust: none;
-        text-size-adjust: none;
+        font-size: 16px !important;
+        -webkit-text-size-adjust: none !important;
+        -moz-text-size-adjust: none !important;
+        text-size-adjust: none !important;
     }
 }
 
