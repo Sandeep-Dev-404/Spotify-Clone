@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="icon" type="image/spotify" href="favicon.ico">
+</head>
+
+<body>
+    <nav>
+        <img class="hamburger invert" src="img/hamburger.svg" alt="">
+        
+        <ul>
+            <li class="first">
+                
+                <div class="logo">
+                    <img src="img/spotify.svg" class="invert" alt="Logo"></div>
+            </li>
+            <li class="second">
+                <div class="home"><img src="img/home.svg" class="invert" alt="home"></div>
+            </li>
+            <li class="third">
+                <form action="get">
+                    <div class="input">
+                        <img src="img/search.svg" class="search" alt="search">
+                        <input type="text" name="search" placeholder="What do you want to play?">
+                        <span class="visible">
+                            <span>Ctrl</span>
+                            <span id="two">K</span>
+                        </span>
+                        <div class="search-bar">
+                            <div class="search-ruler"></div>
+                            <img src="img/bin.svg" alt="Bin" class="bin">
+
+                        </div>
+                    </div>
+                </form>
+            </li>
+            <li class="fourth">
+                <div class="buttons">
+                    <a href="#">Premium</a>
+                    <a href="#">Support</a>
+                    <a href="#">Download</a>
+                    <div class="horizonatal-ruler"></div>
+                    <div class="install-icon">
+                        <a href="#"><span class="span"><img class="invert download-icon" src="img/install.svg"
+                                    alt="install-icon" srcset="">
+                                <div class="install dwn">Install App</div>
+                            </span></a>
+                        <div class="last">
+                            <a href="#" class="sign-up">Sign Up</a>
+                            <button type="log-in" class="log-in">Log in</button>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <div class="container flex">
+        <div class="left border">
+            <div class="Library">
+                <span>Your Library</span><img src="img/plus.svg" alt="Plus-icon" srcset="" class="plus-icon invert">
+                <img src="img/close.svg" class="close invert" alt="">
+            </div>
+            <div class="scroll">
+                <div class="content content-one">
+                    <div class="first-line">Create your first playlist</div>
+                    <div class="second-line">It's easy, we'll help you</div>
+                    <div class="playlist">
+                        <a href="" class="">Create playlist</a>
+                    </div>
+                </div>
+                <div class="content songlist">
+                    <ul>
+                       
+                    </ul>
+                </div>
+                <div class="content content-two">
+                    <div class="first-line one">Let's find some podcasts to follow</div>
+                    <div class="second-line">We'll keep you updated on new episodes</div>
+                    <div class="playlist playlist-two">
+                        <a href="" class="">Browse podcasts</a>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="footer-buttons">
+                    <a class="btn btn-1">Legal</a>
+                    <a class="btn btn-2">Safety & Privacy Center</a>
+                    <a class="btn btn-3">Privacy Policy</a>
+                    <a class="btn btn-4">Cookies</a>
+                    <a class="btn btn-5">About Ads</a>
+                    <a class="btn btn-6">Accessibility</a>
+                    <a class="btn btn-7">Cookies</a>
+                </div>
+                <button class="int-btn"><img src="img/internet.svg" class="internet invert" alt="Language- Change" srcset="">English</button>
+            </footer>
+
+        </div>
+        <div class="right border">
+            <div class="trending-section">
+                <div class="trending">Trending songs</div>
+                <div class="trend-songs">
+                
+            </div>
+            </div>
+            <div class="playbar">
+                <div class="seekbar">
+                    <div class="circular"></div>
+                </div>
+                <div class="abovebar">
+                <div class="songinfo"></div>
+                <div class="songbuttons">
+                    <img id="previous" src="img/previous.svg" alt="">
+                    <img id="play" src="img/play.svg" alt="">
+                    <img id="next" src="img/next.svg" alt="">
+                </div>
+                <div class="timevol">
+                <div class="songtime"></div>
+                <div class="volume">
+                    <img src="img/volume.svg" alt="" srcset="">
+                    <div class="range">
+                        <input type="range" name="range" id="">
+                    </div>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
