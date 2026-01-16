@@ -1,2 +1,17 @@
-songs/
-*.mp3
+# Exclude system and config files
+.DS_Store
+Thumbs.db
+.android/
+AppData/
+.abdm/
+Application Data/
+Cookies/
+Documents/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+Templates/
