@@ -349,14 +349,22 @@ async function main() {
   }
 
   // Add an event listener for hamburger
-    document.querySelector(".hamburger").addEventListener("click", () => {
-        document.querySelector(".left").style.left = "0"
-    })
+  const hamburger = document.querySelector(".hamburger");
+  if (hamburger) {
+    hamburger.addEventListener("click", () => {
+      const left = document.querySelector(".left");
+      if (left) left.style.left = "0";
+    });
+  }
 
-    // Add an event listener for close button
-    document.querySelector(".close").addEventListener("click", () => {
-        document.querySelector(".left").style.left = "-120%"
-    })
+  // Add an event listener for close button
+  const closeBtn = document.querySelector(".close");
+  if (closeBtn) {
+    closeBtn.addEventListener("click", () => {
+      const left = document.querySelector(".left");
+      if (left) left.style.left = "-120%";
+    });
+  }
 
 }
 
