@@ -37,7 +37,7 @@ let currentIndex = -1;
 async function loadInfoJson(folder) {
   if (!folder) return null;
   try {
-    const res = await fetch(`/songs/${encodeURIComponent(folder)}/info.json`);
+    const res = await fetch(`/Spotify-Clone/songs/${encodeURIComponent(folder)}/info.json`);
     if (!res.ok) return null;
     return await res.json().catch(() => null);
   } catch (e) { return null; }
