@@ -340,8 +340,8 @@ async function main() {
   if (!container) return;
   
   try {
-    const res = await fetch('./music-data.json');
-    const data = await res.json();
+const data = await getAllFolders();
+    await playSongs(data);
     let cardsHTML = '';
     
     for (const folder of data.folders) {
