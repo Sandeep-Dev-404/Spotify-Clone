@@ -127,8 +127,7 @@ playSongs(await getAllFolders());
   } catch (e) {
     return null;
   }
-  return null;
-}
+ 
 
 // Parse a directory listing HTML and return anchors
 function parseDirectoryListing(html) {
@@ -140,11 +139,13 @@ function parseDirectoryListing(html) {
 // Static hosting version - load from music-data.json
 async function getAllFolders() {
   try {
-    const res = await fetch('./music-data.json');
-    if (!res.ok) return [];
-    const data = await res.json();
-    return data.folders.map(f => f.name);
-  } catch (e) { return []; }
+    const response = await fetch('/music-data.json'); // replace with your API or local file path
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error('Error fetching data:', error);
+    return null;
+  }
 }
 
 // Load folder info from static data
@@ -338,14 +339,15 @@ async function main() {
   const container = q('.trend-songs');
   if (!container) return;
   
-  const res = await fetch('./music-data.json');
-  const data = await res.json();
-  let cardsHTML = '';
-  
-  for (const folder of data.folders) {
-    const imgSrc = folder.cover || 'https://i.scdn.co/image/ab67616d00001e0203b41d32b65a4d6bca8ec665';
+  try {
+    const res = await fetch('./music-data.json');
+    const data = await res.json();
+    let cardsHTML = '';
     
-    cardsHTML += `<div data-folder="${folder.name}" class="card">
+    for (const folder of data.folders) {
+      const imgSrc = folder.cover || 'https://i.scdn.co/image/ab67616d00001e0203b41d32b65a4d6bca8ec665';
+      
+      cardsHTML += `<div data-folder="${folder.name}" class="card">
 <img src="${imgSrc}" alt="" srcset="">
 <h2>${folder.title}</h2>
 <p>${folder.description}</p>
@@ -358,46 +360,49 @@ async function main() {
 </svg>
 </div>
 </div>`;
-  }
-  
-  container.innerHTML = cardsHTML;
-  qAll('.card').forEach(c => c.addEventListener('click', () => {
-    const f = c.dataset.folder; if (f) openFolder(f);
-  }));
+    }
+    
+    container.innerHTML = cardsHTML;
+    qAll('.card').forEach(c => c.addEventListener('click', () => {
+      const f = c.dataset.folder; if (f) openFolder(f);
+    }));
 
-  // open first folder by default if present
-  if (data.folders.length > 0) await openFolder(data.folders[0].name);
+    // open first folder by default if present
+    if (data.folders.length > 0) await openFolder(data.folders[0].name);
 
-  setupControls();
+    setupControls();
 
-  // Debug: print info.json content for each folder (developer-friendly)
-for (const folder of data.folders) {
-  try {
-    const meta = await loadInfoJson(folder.name);
-    console.log('folder', folder.name, 'info.json ->', meta);
+    // Debug: print info.json content for each folder (developer-friendly)
+    for (const folder of data.folders) {
+      try {
+        const meta = await loadInfoJson(folder.name);
+        console.log('folder', folder.name, 'info.json ->', meta);
+      } catch (error) {
+        console.error('Error loading info.json for folder', folder.name, error);
+      }
+    }
+
+    // Add an event listener for hamburger
+    const hamburger = document.querySelector(".hamburger");
+    if (hamburger) {
+      hamburger.addEventListener("click", () => {
+        const left = document.querySelector(".left");
+        if (left) left.style.left = "0";
+      });
+    }
+
+    // Add an event listener for close button
+    const closeBtn = document.querySelector(".close");
+    if (closeBtn) {
+      closeBtn.addEventListener("click", () => {
+        const left = document.querySelector(".left");
+        if (left) left.style.left = "-120%";
+      });
+    }
+
   } catch (error) {
-    console.error('Error loading info.json for folder', folder.name, error);
+    console.error('Error fetching data:', error);
   }
-}
-
-  // Add an event listener for hamburger
-  const hamburger = document.querySelector(".hamburger");
-  if (hamburger) {
-    hamburger.addEventListener("click", () => {
-      const left = document.querySelector(".left");
-      if (left) left.style.left = "0";
-    });
-  }
-
-  // Add an event listener for close button
-  const closeBtn = document.querySelector(".close");
-  if (closeBtn) {
-    closeBtn.addEventListener("click", () => {
-      const left = document.querySelector(".left");
-      if (left) left.style.left = "-120%";
-    });
-  }
-
 }
 
 // start when DOM is ready
