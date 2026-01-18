@@ -37,46 +37,18 @@ let currentIndex = -1;
 async function loadInfoJson(folder) {
   if (!folder) return null;
   try {
-    const res = await fetch(`/Spotify-Clone/songs/${encodeURIComponent(folder)}/info.json`);
+    const res = await fetch(`/songs/${encodeURIComponent(folder)}/info.json`);
     if (!res.ok) return null;
-    const meta = await res.json();
-    const audioUrl = `/Spotify-Clone/songs/${encodeURIComponent(folder)}/${meta.audioFile}`;
-    return { meta, audioUrl };
-  } catch (e) {
-    console.error('Error loading info.json for folder', folder, e);
-    return null;
-  }
+    return await res.json().catch(() => null);
+  } catch (e) { return null; }
 }
 
-
-
-async function playSongs(data) {
-  for (const folder of data.folders) {
-    await playSong(folder);
-  }
-}
-
-async function playSong(folder) {
-  try {
-    const { meta, audioUrl } = await loadInfoJson(folder);
-    if (!meta || !audioUrl) return;
-    // Play the audio file using your preferred method
-    console.log('Playing song:', folder, meta, audioUrl);
-  } catch (error) {
-    console.error('Error playing song:', folder, error);
-  }
-}
-
-async function main() {
-  const data = await getAllFolders();
-  await playSongs(data);
-}
-
-// Call the async function to play the songs
-main();
+// Probe common cover file names
+async function probeCover(folder, info) {
+  // using info.json or directory listing avoids probing images directly and causing 404s
+  if (!folder) return null;
 
   // 1) prefer explicit path from info.json
-playSongs(await getAllFolders());
   if (info && info.cover) {
     // normalize cover value from info.json
     let raw = String(info.cover).trim();
@@ -127,7 +99,8 @@ playSongs(await getAllFolders());
   } catch (e) {
     return null;
   }
- 
+  return null;
+}
 
 // Parse a directory listing HTML and return anchors
 function parseDirectoryListing(html) {
@@ -139,13 +112,11 @@ function parseDirectoryListing(html) {
 // Static hosting version - load from music-data.json
 async function getAllFolders() {
   try {
-    const response = await fetch('/music-data.json'); // replace with your API or local file path
-    const data = await response.json();
-    return data;
-  } catch (error) {
-    console.error('Error fetching data:', error);
-    return null;
-  }
+    const res = await fetch('./music-data.json');
+    if (!res.ok) return [];
+    const data = await res.json();
+    return data.folders.map(f => f.name);
+  } catch (e) { return []; }
 }
 
 // Load folder info from static data
@@ -339,15 +310,14 @@ async function main() {
   const container = q('.trend-songs');
   if (!container) return;
   
-  try {
-const data = await getAllFolders();
-    await playSongs(data);
-    let cardsHTML = '';
+  const res = await fetch('./music-data.json');
+  const data = await res.json();
+  let cardsHTML = '';
+  
+  for (const folder of data.folders) {
+    const imgSrc = folder.cover || 'https://i.scdn.co/image/ab67616d00001e0203b41d32b65a4d6bca8ec665';
     
-    for (const folder of data.folders) {
-      const imgSrc = folder.cover || 'https://i.scdn.co/image/ab67616d00001e0203b41d32b65a4d6bca8ec665';
-      
-      cardsHTML += `<div data-folder="${folder.name}" class="card">
+    cardsHTML += `<div data-folder="${folder.name}" class="card">
 <img src="${imgSrc}" alt="" srcset="">
 <h2>${folder.title}</h2>
 <p>${folder.description}</p>
@@ -360,49 +330,46 @@ const data = await getAllFolders();
 </svg>
 </div>
 </div>`;
-    }
-    
-    container.innerHTML = cardsHTML;
-    qAll('.card').forEach(c => c.addEventListener('click', () => {
-      const f = c.dataset.folder; if (f) openFolder(f);
-    }));
-
-    // open first folder by default if present
-    if (data.folders.length > 0) await openFolder(data.folders[0].name);
-
-    setupControls();
-
-    // Debug: print info.json content for each folder (developer-friendly)
-    for (const folder of data.folders) {
-      try {
-        const meta = await loadInfoJson(folder.name);
-        console.log('folder', folder.name, 'info.json ->', meta);
-      } catch (error) {
-        console.error('Error loading info.json for folder', folder.name, error);
-      }
-    }
-
-    // Add an event listener for hamburger
-    const hamburger = document.querySelector(".hamburger");
-    if (hamburger) {
-      hamburger.addEventListener("click", () => {
-        const left = document.querySelector(".left");
-        if (left) left.style.left = "0";
-      });
-    }
-
-    // Add an event listener for close button
-    const closeBtn = document.querySelector(".close");
-    if (closeBtn) {
-      closeBtn.addEventListener("click", () => {
-        const left = document.querySelector(".left");
-        if (left) left.style.left = "-120%";
-      });
-    }
-
-  } catch (error) {
-    console.error('Error fetching data:', error);
   }
+  
+  container.innerHTML = cardsHTML;
+  qAll('.card').forEach(c => c.addEventListener('click', () => {
+    const f = c.dataset.folder; if (f) openFolder(f);
+  }));
+
+  // open first folder by default if present
+  if (data.folders.length > 0) await openFolder(data.folders[0].name);
+
+  setupControls();
+
+  // Debug: print info.json content for each folder (developer-friendly)
+  for (const folder of data.folders) {
+/*************  ✨ Windsurf Command 🌟  *************/
+    const metaPromise = loadInfoJson(folder.name);
+    const meta = await metaPromise.catch(() => null);
+    const meta = await loadInfoJson(folder.name);
+/*******  cbb07213-6991-4dfb-8330-a9ecaeeb25e9  *******/
+    console.log('folder', folder.name, 'info.json ->', meta);
+  }
+
+  // Add an event listener for hamburger
+  const hamburger = document.querySelector(".hamburger");
+  if (hamburger) {
+    hamburger.addEventListener("click", () => {
+      const left = document.querySelector(".left");
+      if (left) left.style.left = "0";
+    });
+  }
+
+  // Add an event listener for close button
+  const closeBtn = document.querySelector(".close");
+  if (closeBtn) {
+    closeBtn.addEventListener("click", () => {
+      const left = document.querySelector(".left");
+      if (left) left.style.left = "-120%";
+    });
+  }
+
 }
 
 // start when DOM is ready
