@@ -198,8 +198,18 @@ async function openFolder(folder) {
 
   if (currentSongs.length > 0) {
     currentIndex = 0;
-    audio.src = `/Spotify-Clone/songs/${encodeURIComponent(folder)}/${encodeURIComponent(currentSongs[0])}`;
-    audio.play().catch(() => {});
+    const src = `/Spotify-Clone/songs/${encodeURIComponent(folder)}/${encodeURIComponent(currentSongs[0])}`;
+    console.log('Opening folder:', folder, 'Loading first song:', src);
+    audio.src = src;
+    
+    audio.onerror = function() {
+      console.error('Failed to load audio. Error code:', audio.error ? audio.error.code : 'unknown');
+      console.error('Audio source:', audio.src);
+    };
+    
+    audio.play().catch((err) => {
+      console.error('Play error:', err);
+    });
     const infoEl = q('.songinfo');
     if (infoEl) infoEl.textContent = sanitizeSongDisplayName(currentSongs[0]);
     if (playBtn) playBtn.src = 'img/pause.svg';
@@ -215,8 +225,18 @@ function playAt(index) {
   if (index < 0 || index >= currentSongs.length) return;
   currentIndex = index;
   const src = `/Spotify-Clone/songs/${encodeURIComponent(currentFolder)}/${encodeURIComponent(currentSongs[index])}`;
+  console.log('Loading audio:', src);
   audio.src = src;
-  audio.play().catch(() => {});
+  
+  // Add error handling
+  audio.onerror = function() {
+    console.error('Failed to load audio. Error code:', audio.error ? audio.error.code : 'unknown');
+    console.error('Audio source:', audio.src);
+  };
+  
+  audio.play().catch((err) => {
+    console.error('Play error:', err);
+  });
   const infoEl = q('.songinfo');
   if (infoEl) infoEl.textContent = sanitizeSongDisplayName(currentSongs[index]);
   if (playBtn) playBtn.src = 'img/pause.svg';
@@ -295,6 +315,8 @@ async function main() {
 
   const res = await fetch('./music-data.json');
   const data = await res.json();
+  console.log('Loaded music data:', data.folders.length, 'folders');
+  console.log('First folder songs:', data.folders[0]);
   let cardsHTML = '';
 
   for (const folder of data.folders) {
@@ -316,12 +338,16 @@ async function main() {
   }
 
   container.innerHTML = cardsHTML;
+  console.log('Created', cardsHTML.split('data-folder').length - 1, 'cards');
   qAll('.card').forEach(c => c.addEventListener('click', () => {
     const f = c.dataset.folder;
     if (f) openFolder(f);
   }));
 
-  if (data.folders.length > 0) await openFolder(data.folders[0].name);
+  if (data.folders.length > 0) {
+    console.log('Opening first folder:', data.folders[0].name);
+    await openFolder(data.folders[0].name);
+  }
 
   setupControls();
 
