@@ -1,4 +1,4 @@
-// Beginner-friendly script for the music page
+ // Beginner-friendly script for the music page
 // - Reads folders from /songs/
 // - Loads info.json for each folder and updates existing .card h2/p and images
 // - Loads songs for clicked folder into the left playlist and selects first song paused
@@ -37,7 +37,7 @@ let currentIndex = -1;
 async function loadInfoJson(folder) {
   if (!folder) return null;
   try {
-    const res = await fetch(`/songs/${encodeURIComponent(folder)}/info.json`);
+    const res = await fetch(`/Spotify-Clone/songs/${encodeURIComponent(folder)}/info.json`);
     if (!res.ok) return null;
     return await res.json().catch(() => null);
   } catch (e) { return null; }
@@ -57,11 +57,11 @@ async function probeCover(folder, info) {
     if (c.startsWith('/')) return c;
     if (c.toLowerCase().startsWith('songs/')) return '/' + c;
     if (c.includes('/')) return '/' + c;
-    return `/songs/${encodeURIComponent(folder)}/${encodeURIComponent(c)}`;
+    return `/Spotify-Clone/songs/${encodeURIComponent(folder)}/${encodeURIComponent(c)}`;
   }
 
   try {
-    const res = await fetch(`/songs/${encodeURIComponent(folder)}/`);
+    const res = await fetch(`/Spotify-Clone/songs/${encodeURIComponent(folder)}/`);
     if (!res.ok) return null;
     const text = await res.text();
     const anchors = parseDirectoryListing(text);
@@ -74,11 +74,11 @@ async function probeCover(folder, info) {
 
     const preferred = ['cover.jpg', 'cover.png', 'cover.webp', 'cover.jpeg', 'folder.jpg', 'folder.png'];
     for (const n of preferred) {
-      if (files.includes(n)) return `/songs/${encodeURIComponent(folder)}/${encodeURIComponent(n)}`;
+      if (files.includes(n)) return `/Spotify-Clone/songs/${encodeURIComponent(folder)}/${encodeURIComponent(n)}`;
     }
 
     const imgFile = files.find(f => f.toLowerCase().match(/\.(jpg|jpeg|png|webp|gif)$/));
-    if (imgFile) return `/songs/${encodeURIComponent(folder)}/${encodeURIComponent(imgFile)}`;
+    if (imgFile) return `/Spotify-Clone/songs/${encodeURIComponent(folder)}/${encodeURIComponent(imgFile)}`;
   } catch (e) { return null; }
   return null;
 }
