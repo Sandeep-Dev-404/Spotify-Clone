@@ -319,14 +319,16 @@ form:hover .visible {
 }
 
 .left {
-  max-width: 370px;
-  width: fit-content;
+  max-width: 300px;
+  width: 100%;
   background-color: rgb(18 18 18);
   border-radius: 12px;
   border: 2px solid black;
   margin-left: 6px;
-  font-size: 14px; /* Set a fixed font size */
+  font-size: 12px; /* Reduce font size */
   line-height: 1.5; /* Adjust line height for readability */
+  overflow-y: auto; /* Add overflow-y property */
+  max-height: 400px; /* Set a maximum height */
 }
 
 .hamburger,
@@ -674,6 +676,7 @@ img{
   padding: 12px;
   overflow: hidden;
   max-width: 100%;
+  overflow-x: hidden;
 }
 
 @media (max-width: 480px) {
@@ -694,13 +697,14 @@ img{
 }
 
 .seekbar {
-    height: 2px;
-    width: 97%;
-    border: 1px solid white;
-    background-color: white;
-    position: absolute;
-    bottom: 6px;
-    cursor: pointer;
+  height: 2px;
+  width: 100%;
+  border: 1px solid white;
+  background-color: white;
+  position: absolute;
+  bottom: 6px;
+  cursor: pointer;
+  overflow: hidden;
 }
 
 .circular {
@@ -717,9 +721,11 @@ img{
 
 
 
-.abovebar {
-    color: rgb(202, 202, 202);
-    width: 100%;
+.playbar .abovebar {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
     display: flex;
     justify-content: space-between;
     font-family: "Lato", sans-serif;

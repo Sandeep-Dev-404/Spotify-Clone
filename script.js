@@ -39,11 +39,29 @@ async function loadInfoJson(folder) {
   try {
     const res = await fetch(`/Spotify-Clone/songs/${encodeURIComponent(folder)}/info.json`);
     if (!res.ok) return null;
-    return await res.json().catch(() => null);
+    const meta = await res.json();
+    const audioUrl = `/Spotify-Clone/songs/${encodeURIComponent(folder)}/${meta.audioFile}`;
+    return { meta, audioUrl };
   } catch (e) {
     console.error('Error loading info.json for folder', folder, e);
     return null;
   }
+}
+
+async function playSong(folder) {
+  try {
+    const { meta, audioUrl } = await loadInfoJson(folder);
+    if (!meta || !audioUrl) return;
+    // Play the audio file using your preferred method
+    console.log('Playing song:', folder, meta, audioUrl);
+  } catch (error) {
+    console.error('Error playing song:', folder, error);
+  }
+}
+
+// Usage:
+for (const folder of data.folders) {
+  await playSong(folder);
 }
 
 // Probe common cover file names
