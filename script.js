@@ -80,7 +80,7 @@ async function probeCover(folder, info) {
   // using info.json or directory listing avoids probing images directly and causing 404s
   if (!folder) return null;
   }
-}
+
 
   // 1) prefer explicit path from info.json
 playSongs(await getAllFolders());
