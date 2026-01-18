@@ -221,6 +221,18 @@ async function openFolder(folder) {
     currentSongs = folderData.songs;
   }
 
+  async function playSongs(folder) {
+  try {
+    const data = await loadSongData(folder);
+    if (data) {
+      const audio = new Audio(data.songUrl);
+      audio.play().catch(() => {});
+    }
+  } catch (error) {
+    console.error(error);
+  }
+}
+
   // render
   const ul = q('.songlist ul');
   if (!ul) return;
