@@ -48,22 +48,9 @@ async function loadInfoJson(folder) {
   }
 }
 
-// Define data here or fetch it from an API or local file
-const data = {
-  folders: [
-    // your folder data here
-  ]
-};
+
 
 async function playSongs(data) {
-  for (const folder of data.folders) {
-    await playSong(folder);
-  }
-}
-
-async function playSongs() {
-  const response = await fetch('/music-data.json'); // replace with your API or local file path
-  const data = await response.json();
   for (const folder of data.folders) {
     await playSong(folder);
   }
@@ -81,8 +68,8 @@ async function playSong(folder) {
 }
 
 // Call the async function to play the songs
-playSongs();
-
+const data = await getAllFolders();
+playSongs(data);
 
   // 1) prefer explicit path from info.json
 playSongs(await getAllFolders());
