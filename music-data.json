@@ -6,33 +6,114 @@
       "description": "High energy party tracks",
       "cover": "songs/All Season Party-songs/image.png",
       "songs": [
-        "2 Khatole (Lofi Mix).mp3",
-        "Aakh Ye Taalibaani.mp3",
-        "Asi Gabru Punjabi.mp3",
-        "Badnam ( Orignal Version ).mp3",
-        "Beretta.mp3",
-        "BLACK RIDE.mp3",
-        "Financer.mp3",
-        "Ghode 3.mp3",
-        "Green Flag  .mp3",
-        "Hopeless  .mp3",
-        "Ishq Bawla _ Coke Studio Bharat  .mp3",
-        "Jaat Intro (feat. Pranjal Dahiya)  .mp3",
-        "Kale Kagaz  .mp3",
-        "La La La  .mp3",
-        "Legacy  .mp3",
-        "Lofar  .mp3",
-        "Na Na Na  .mp3",
-        "Nazra Ke Teer  .mp3",
-        "Old Money  .mp3",
-        "Pagal Banawe  .mp3",
-        "Police  .mp3",
-        "Status  .mp3",
-        "Tag Awara Ke  .mp3",
-        "Tension  .mp3",
-        "Unstoppable  .mp3",
-        "Yaar Anmule  .mp3",
-        "Yaari  .mp3"
+        {
+          "file": "2 Khatole (Lofi Mix).mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/2%20Khatole%20%28Lofi%20Mix%29.mp3"
+        },
+        {
+          "file": "Aakh Ye Taalibaani.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Aakh%20Ye%20Taalibaani.mp3"
+        },
+        {
+          "file": "Asi Gabru Punjabi.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Asi%20Gabru%20Punjabi.mp3"
+        },
+        {
+          "file": "Badnam ( Orignal Version ).mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Badnam%20%28%20Orignal%20Version%20%29.mp3"
+        },
+        {
+          "file": "Beretta.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Beretta.mp3"
+        },
+        {
+          "file": "BLACK RIDE.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/BLACK%20RIDE.mp3"
+        },
+        {
+          "file": "Financer.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Financer.mp3"
+        },
+        {
+          "file": "Ghode 3.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Ghode%203.mp3"
+        },
+        {
+          "file": "Green Flag  .mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Green%20Flag%20%20.mp3"
+        },
+        {
+          "file": "Hopeless  .mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Hopeless%20%20.mp3"
+        },
+        {
+          "file": "Ishq Bawla _ Coke Studio Bharat  .mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Ishq%20Bawla%20_%20Coke%20Studio%20Bharat%20%20.mp3"
+        },
+        {
+          "file": "Jaat Intro (feat. Pranjal Dahiya)  .mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Jaat%20Intro%20%28feat.%20Pranjal%20Dahiya%29%20%20.mp3"
+        },
+        {
+          "file": "Kale Kagaz  .mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Kale%20Kagaz%20%20.mp3"
+        },
+        {
+          "file": "La La La  .mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/La%20La%20La%20%20.mp3"
+        },
+        {
+          "file": "Legacy  .mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Legacy%20%20.mp3"
+        },
+        {
+          "file": "Lofar  .mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Lofar%20%20.mp3"
+        },
+        {
+          "file": "Na Na Na  .mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Na%20Na%20Na%20%20.mp3"
+        },
+        {
+          "file": "Nazra Ke Teer  .mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Nazra%20Ke%20Teer%20%20.mp3"
+        },
+        {
+          "file": "Old Money  .mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Old%20Money%20%20.mp3"
+        },
+        {
+          "file": "Pagal Banawe  .mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Pagal%20Banawe%20%20.mp3"
+        },
+        {
+          "file": "Police  .mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Police%20%20.mp3"
+        },
+        {
+          "file": "Status  .mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Status%20%20.mp3"
+        },
+        {
+          "file": "Tag Awara Ke  .mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tag%20Awara%20Ke%20%20.mp3"
+        },
+        {
+          "file": "Tension  .mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tension%20%20.mp3"
+        },
+        {
+          "file": "Unstoppable  .mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Unstoppable%20%20.mp3"
+        },
+        {
+          "file": "Yaar Anmule  .mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Yaar%20Anmule%20%20.mp3"
+        },
+        {
+          "file": "Yaari  .mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Yaari%20%20.mp3"
+        }
       ]
     },
     {
@@ -41,67 +122,250 @@
       "description": "Best of Arijit Singh",
       "cover": "songs/Arijit/cover.jpeg",
       "songs": [
-        "Aaj Dil Shayrana.mp3",
-        "Aaj Se Teri.mp3",
-        "Aavan Jaavan Song.mp3",
-        "Ae Dil Hai Mushkil.mp3",
-        "Akhiyaan Gulaab.mp3",
-        "Apna Bana Le.mp3",
-        "Baaton Ko Teri.mp3",
-        "Bekhayali.mp3",
-        "Binte Dil.mp3",
-        "Bolna.mp3",
-        "Chahun Main Ya Naa.mp3",
-        "Channa Mereya.mp3",
-        "Enna Sona.mp3",
-        "First Class.mp3",
-        "Galti Se Mistake.mp3",
-        "Gerua.mp3",
-        "Ghungroo Song.mp3",
-        "Haareya Song.mp3",
-        "Hawayein.mp3",
-        "Humari Adhuri Kahani.mp3",
-        "Humdard.mp3",
-        "Ik Vaari Aa.mp3",
-        "Ilahi.mp3",
-        "Intezaar.mp3",
-        "Kalank.mp3",
-        "Kesariya.mp3",
-        "Khairiyat.mp3",
-        "Khamoshiyan.mp3",
-        "Main Tera Boyfriend.mp3",
-        "Main Tera Hero.mp3",
-        "Manwa Laage.mp3",
-        "Milne Hai Mujhse Aayi.mp3",
-        "Muskura.mp3",
-        "Naina.mp3",
-        "Nashe Si Chadh Gayi.mp3",
-        "O Maahi.mp3",
-        "Pachtaogum.mp3",
-        "Pal Pal Dil Ke Paas.mp3",
-        "Pal.mp3",
-        "Palat Tera Hero Idhar Hain.mp3",
-        "Phir Bhi Tumko Chaahun.mp3",
-        "PHIR KABHI.mp3",
-        "Qaafirana.mp3",
-        "Sajni.mp3",
-        "Samjhawan.mp3",
-        "SANAM RE.mp3",
-        "Sawan Aaya Hai.mp3",
-        "Soch Na Sake.mp3",
-        "Sooraj Dooba Hain.mp3",
-        "Subah Subah.mp3",
-        "Suno na Sangemarmar.mp3",
-        "Tainu Khabar Nahi.mp3",
-        "Tera Fitoor.mp3",
-        "Tera Yaar.mp3",
-        "Teri Meri Kahaani.mp3",
-        "Tujhe Kitna.mp3",
-        "Tum Hi Ho.mp3",
-        "Tumse Behtar.mp3",
-        "Ullu Ka Pattha.mp3",
-        "Ve Maahi.mp3",
-        "Zaalima.mp3"
+        {
+          "file": "Aaj Dil Shayrana.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Aaj%20Dil%20Shayrana.mp3"
+        },
+        {
+          "file": "Aaj Se Teri.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Aaj%20Se%20Teri.mp3"
+        },
+        {
+          "file": "Aavan Jaavan Song.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Aavan%20Jaavan%20Song.mp3"
+        },
+        {
+          "file": "Ae Dil Hai Mushkil.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Ae%20Dil%20Hai%20Mushkil.mp3"
+        },
+        {
+          "file": "Akhiyaan Gulaab.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Akhiyaan%20Gulaab.mp3"
+        },
+        {
+          "file": "Apna Bana Le.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Apna%20Bana%20Le.mp3"
+        },
+        {
+          "file": "Baaton Ko Teri.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Baaton%20Ko%20Teri.mp3"
+        },
+        {
+          "file": "Bekhayali.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Bekhayali.mp3"
+        },
+        {
+          "file": "Binte Dil.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Binte%20Dil.mp3"
+        },
+        {
+          "file": "Bolna.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Bolna.mp3"
+        },
+        {
+          "file": "Chahun Main Ya Naa.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Chahun%20Main%20Ya%20Naa.mp3"
+        },
+        {
+          "file": "Channa Mereya.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Channa%20Mereya.mp3"
+        },
+        {
+          "file": "Enna Sona.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Enna%20Sona.mp3"
+        },
+        {
+          "file": "First Class.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/First%20Class.mp3"
+        },
+        {
+          "file": "Galti Se Mistake.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Galti%20Se%20Mistake.mp3"
+        },
+        {
+          "file": "Gerua.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Gerua.mp3"
+        },
+        {
+          "file": "Ghungroo Song.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Ghungroo%20Song.mp3"
+        },
+        {
+          "file": "Haareya Song.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Haareya%20Song.mp3"
+        },
+        {
+          "file": "Hawayein.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Hawayein.mp3"
+        },
+        {
+          "file": "Humari Adhuri Kahani.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Humari%20Adhuri%20Kahani.mp3"
+        },
+        {
+          "file": "Humdard.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Humdard.mp3"
+        },
+        {
+          "file": "Ik Vaari Aa.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Ik%20Vaari%20Aa.mp3"
+        },
+        {
+          "file": "Ilahi.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Ilahi.mp3"
+        },
+        {
+          "file": "Intezaar.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Intezaar.mp3"
+        },
+        {
+          "file": "Kalank.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Kalank.mp3"
+        },
+        {
+          "file": "Kesariya.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Kesariya.mp3"
+        },
+        {
+          "file": "Khairiyat.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Khairiyat.mp3"
+        },
+        {
+          "file": "Khamoshiyan.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Khamoshiyan.mp3"
+        },
+        {
+          "file": "Main Tera Boyfriend.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Main%20Tera%20Boyfriend.mp3"
+        },
+        {
+          "file": "Main Tera Hero.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Main%20Tera%20Hero.mp3"
+        },
+        {
+          "file": "Manwa Laage.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Manwa%20Laage.mp3"
+        },
+        {
+          "file": "Milne Hai Mujhse Aayi.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Milne%20Hai%20Mujhse%20Aayi.mp3"
+        },
+        {
+          "file": "Muskura.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Muskura.mp3"
+        },
+        {
+          "file": "Naina.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Naina.mp3"
+        },
+        {
+          "file": "Nashe Si Chadh Gayi.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Nashe%20Si%20Chadh%20Gayi.mp3"
+        },
+        {
+          "file": "O Maahi.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/O%20Maahi.mp3"
+        },
+        {
+          "file": "Pachtaogum.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Pachtaogum.mp3"
+        },
+        {
+          "file": "Pal Pal Dil Ke Paas.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Pal%20Pal%20Dil%20Ke%20Paas.mp3"
+        },
+        {
+          "file": "Pal.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Pal.mp3"
+        },
+        {
+          "file": "Palat Tera Hero Idhar Hain.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Palat%20Tera%20Hero%20Idhar%20Hain.mp3"
+        },
+        {
+          "file": "Phir Bhi Tumko Chaahun.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Phir%20Bhi%20Tumko%20Chaahun.mp3"
+        },
+        {
+          "file": "PHIR KABHI.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/PHIR%20KABHI.mp3"
+        },
+        {
+          "file": "Qaafirana.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Qaafirana.mp3"
+        },
+        {
+          "file": "Sajni.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Sajni.mp3"
+        },
+        {
+          "file": "Samjhawan.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Samjhawan.mp3"
+        },
+        {
+          "file": "SANAM RE.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/SANAM%20RE.mp3"
+        },
+        {
+          "file": "Sawan Aaya Hai.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Sawan%20Aaya%20Hai.mp3"
+        },
+        {
+          "file": "Soch Na Sake.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Soch%20Na%20Sake.mp3"
+        },
+        {
+          "file": "Sooraj Dooba Hain.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Sooraj%20Dooba%20Hain.mp3"
+        },
+        {
+          "file": "Subah Subah.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Subah%20Subah.mp3"
+        },
+        {
+          "file": "Suno na Sangemarmar.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Suno%20na%20Sangemarmar.mp3"
+        },
+        {
+          "file": "Tainu Khabar Nahi.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tainu%20Khabar%20Nahi.mp3"
+        },
+        {
+          "file": "Tera Fitoor.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tera%20Fitoor.mp3"
+        },
+        {
+          "file": "Tera Yaar.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tera%20Yaar.mp3"
+        },
+        {
+          "file": "Teri Meri Kahaani.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Teri%20Meri%20Kahaani.mp3"
+        },
+        {
+          "file": "Tujhe Kitna.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tujhe%20Kitna.mp3"
+        },
+        {
+          "file": "Tum Hi Ho.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tum%20Hi%20Ho.mp3"
+        },
+        {
+          "file": "Tumse Behtar.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tumse%20Behtar.mp3"
+        },
+        {
+          "file": "Ullu Ka Pattha.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Ullu%20Ka%20Pattha.mp3"
+        },
+        {
+          "file": "Ve Maahi.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Ve%20Maahi.mp3"
+        },
+        {
+          "file": "Zaalima.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Zaalima.mp3"
+        }
       ]
     },
     {
@@ -110,28 +374,94 @@
       "description": "Relaxing and lofi tracks",
       "cover": "songs/Chill/image.png",
       "songs": [
-        "9_45.mp3",
-        "Born to Shine.mp3",
-        "California Love.mp3",
-        "Deewane Hum Nahi.mp3",
-        "Dhundhala.mp3",
-        "Dilawara.mp3",
-        "Ehsaas.mp3",
-        "Fell For You.mp3",
-        "G.O.A.T..mp3",
-        "God Damn.mp3",
-        "Hass Hass.mp3",
-        "High On You.mp3",
-        "Khayaal.mp3",
-        "Lalkara.mp3",
-        "Meri Zindagi Hai Tu.mp3",
-        "Mi Amor.mp3",
-        "No Love.mp3",
-        "One Love.mp3",
-        "Still Rollin.mp3",
-        "Sundari.mp3",
-        "Supreme.mp3",
-        "Tu Zaroori.mp3"
+        {
+          "file": "9_45.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/9_45.mp3"
+        },
+        {
+          "file": "Born to Shine.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Born%20to%20Shine.mp3"
+        },
+        {
+          "file": "California Love.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/California%20Love.mp3"
+        },
+        {
+          "file": "Deewane Hum Nahi.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Deewane%20Hum%20Nahi.mp3"
+        },
+        {
+          "file": "Dhundhala.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Dhundhala.mp3"
+        },
+        {
+          "file": "Dilawara.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Dilawara.mp3"
+        },
+        {
+          "file": "Ehsaas.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Ehsaas.mp3"
+        },
+        {
+          "file": "Fell For You.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Fell%20For%20You.mp3"
+        },
+        {
+          "file": "G.O.A.T..mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/G.O.A.T..mp3"
+        },
+        {
+          "file": "God Damn.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/God%20Damn.mp3"
+        },
+        {
+          "file": "Hass Hass.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Hass%20Hass.mp3"
+        },
+        {
+          "file": "High On You.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/High%20On%20You.mp3"
+        },
+        {
+          "file": "Khayaal.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Khayaal.mp3"
+        },
+        {
+          "file": "Lalkara.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Lalkara.mp3"
+        },
+        {
+          "file": "Meri Zindagi Hai Tu.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Meri%20Zindagi%20Hai%20Tu.mp3"
+        },
+        {
+          "file": "Mi Amor.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Mi%20Amor.mp3"
+        },
+        {
+          "file": "No Love.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/No%20Love.mp3"
+        },
+        {
+          "file": "One Love.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/One%20Love.mp3"
+        },
+        {
+          "file": "Still Rollin.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Still%20Rollin.mp3"
+        },
+        {
+          "file": "Sundari.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Sundari.mp3"
+        },
+        {
+          "file": "Supreme.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Supreme.mp3"
+        },
+        {
+          "file": "Tu Zaroori.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tu%20Zaroori.mp3"
+        }
       ]
     },
     {
@@ -140,17 +470,50 @@
       "description": "Spiritual and religious music",
       "cover": "songs/Devotional/image.png",
       "songs": [
-        "Bajrang Baan (Slowed & Reverb).mp3",
-        "Bajrang Baan-Lofi.mp3",
-        "Bam Lahiri.mp3",
-        "Bam Lehri.mp3",
-        "Bhole Charaniy Aaradhna.mp3",
-        "Har Har Mahadev.mp3",
-        "Kali Mantra - Trap - Trap Music.mp3",
-        "Keejo Kesari Ke Laal.mp3",
-        "Meri Gadi Mera Bangla Sab Tero Sanwariya Seth Mera To Kuchh Bhi Nahi.mp3",
-        "Mhara Ujjain Ka Maharaja Ne Khamma Re Khamma.mp3",
-        "Teen Baan Ke Dhari.mp3"
+        {
+          "file": "Bajrang Baan (Slowed & Reverb).mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Bajrang%20Baan%20%28Slowed%20%26%20Reverb%29.mp3"
+        },
+        {
+          "file": "Bajrang Baan-Lofi.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Bajrang%20Baan-Lofi.mp3"
+        },
+        {
+          "file": "Bam Lahiri.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Bam%20Lahiri.mp3"
+        },
+        {
+          "file": "Bam Lehri.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Bam%20Lehri.mp3"
+        },
+        {
+          "file": "Bhole Charaniy Aaradhna.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Bhole%20Charaniy%20Aaradhna.mp3"
+        },
+        {
+          "file": "Har Har Mahadev.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Har%20Har%20Mahadev.mp3"
+        },
+        {
+          "file": "Kali Mantra - Trap - Trap Music.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Kali%20Mantra%20-%20Trap%20-%20Trap%20Music.mp3"
+        },
+        {
+          "file": "Keejo Kesari Ke Laal.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Keejo%20Kesari%20Ke%20Laal.mp3"
+        },
+        {
+          "file": "Meri Gadi Mera Bangla Sab Tero Sanwariya Seth Mera To Kuchh Bhi Nahi.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Meri%20Gadi%20Mera%20Bangla%20Sab%20Tero%20Sanwariya%20Seth%20Mera%20To%20Kuchh%20Bhi%20Nahi.mp3"
+        },
+        {
+          "file": "Mhara Ujjain Ka Maharaja Ne Khamma Re Khamma.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Mhara%20Ujjain%20Ka%20Maharaja%20Ne%20Khamma%20Re%20Khamma.mp3"
+        },
+        {
+          "file": "Teen Baan Ke Dhari.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Teen%20Baan%20Ke%20Dhari.mp3"
+        }
       ]
     },
     {
@@ -159,93 +522,354 @@
       "description": "Popular English Songs",
       "cover": "songs/English-Songs/cover.jpeg",
       "songs": [
-        "A Thousand Years.mp3",
-        "Add It Up.mp3",
-        "Aerials.mp3",
-        "All Of Me.mp3",
-        "Another Love.mp3",
-        "Another One Bites The Dust.mp3",
-        "As It Was.mp3",
-        "Attention.mp3",
-        "Avicii.mp3",
-        "Be The One.mp3",
-        "Believer.mp3",
-        "Burning Love.mp3",
-        "Can't Help Falling in Love.mp3",
-        "Cheerleader.mp3",
-        "Chiquitita.mp3",
-        "come out and play.mp3",
-        "Counting Stars.mp3",
-        "Cure for Me.mp3",
-        "Don't Go Breaking My Heart.mp3",
-        "Fix You.mp3",
-        "FRIENDS.mp3",
-        "Goo Goo Dolls - Iris.mp3",
-        "Harry Styles.mp3",
-        "Hello.mp3",
-        "Hey, Soul Sister.mp3",
-        "How Far I'll Go.mp3",
-        "Human.mp3",
-        "Hurt.mp3",
-        "I WANNA BE YOUR SLAVE.mp3",
-        "I Wanna Be Yours.mp3",
-        "I'm a Believer.mp3",
-        "I'm A Mess.mp3",
-        "I'm Still Here (Jim's Theme) from Treasure Planet.mp3",
-        "I'm Yours.mp3",
-        "IDGAF.mp3",
-        "Is This Love.mp3",
-        "Jackson 5 ABC.mp3",
-        "Just Give Me a Reason.mp3",
-        "Lemon Tree.mp3",
-        "Livin' La Vida Loca.mp3",
-        "Lost On You.mp3",
-        "Love Me Like You Do.mp3",
-        "Love Story.mp3",
-        "Love Yourself.mp3",
-        "lovely.mp3",
-        "Memories.mp3",
-        "Money Money Money.mp3",
-        "My Heart Will Go On.mp3",
-        "My Universe.mp3",
-        "My Way.mp3",
-        "Need You Now.mp3",
-        "Nothing Else Matters.mp3",
-        "November Rain.mp3",
-        "One And Only.mp3",
-        "Panic! At the Disco - High Hopes.mp3",
-        "Perfect.mp3",
-        "Photograph.mp3",
-        "Rasputin.mp3",
-        "Roar.mp3",
-        "Rude.mp3",
-        "Safe And Sound.mp3",
-        "Say My Name.mp3",
-        "Scared To Be Lonely.mp3",
-        "Señorita.mp3",
-        "Shape Of You.mp3",
-        "Sleepover.mp3",
-        "Smells Like Teen Spirit.mp3",
-        "Someone Like You.mp3",
-        "Stay.mp3",
-        "Still Into You.mp3",
-        "Sweet Child O' Mine.mp3",
-        "Take Me To Church.mp3",
-        "The Chainsmokers.mp3",
-        "The Greatest Showman - The other side.mp3",
-        "The Only Exception.mp3",
-        "The Police.mp3",
-        "The Reason.mp3",
-        "Three Little Birds.mp3",
-        "Thunder.mp3",
-        "Too Good At Goodbyes.mp3",
-        "Treat You Better.mp3",
-        "Wake Me Up When September Ends.mp3",
-        "When You're Gone.mp3",
-        "Wish You Were Here.mp3",
-        "Wonderwall.mp3",
-        "Yellow.mp3",
-        "You're Beautiful.mp3"
+        {
+          "file": "A Thousand Years.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/A%20Thousand%20Years.mp3"
+        },
+        {
+          "file": "Add It Up.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Add%20It%20Up.mp3"
+        },
+        {
+          "file": "Aerials.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Aerials.mp3"
+        },
+        {
+          "file": "All Of Me.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/All%20Of%20Me.mp3"
+        },
+        {
+          "file": "Another Love.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Another%20Love.mp3"
+        },
+        {
+          "file": "Another One Bites The Dust.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Another%20One%20Bites%20The%20Dust.mp3"
+        },
+        {
+          "file": "As It Was.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/As%20It%20Was.mp3"
+        },
+        {
+          "file": "Attention.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Attention.mp3"
+        },
+        {
+          "file": "Avicii.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Avicii.mp3"
+        },
+        {
+          "file": "Be The One.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Be%20The%20One.mp3"
+        },
+        {
+          "file": "Believer.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Believer.mp3"
+        },
+        {
+          "file": "Burning Love.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Burning%20Love.mp3"
+        },
+        {
+          "file": "Can't Help Falling in Love.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Can%27t%20Help%20Falling%20in%20Love.mp3"
+        },
+        {
+          "file": "Cheerleader.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Cheerleader.mp3"
+        },
+        {
+          "file": "Chiquitita.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Chiquitita.mp3"
+        },
+        {
+          "file": "come out and play.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/come%20out%20and%20play.mp3"
+        },
+        {
+          "file": "Counting Stars.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Counting%20Stars.mp3"
+        },
+        {
+          "file": "Cure for Me.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Cure%20for%20Me.mp3"
+        },
+        {
+          "file": "Don't Go Breaking My Heart.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Don%27t%20Go%20Breaking%20My%20Heart.mp3"
+        },
+        {
+          "file": "Fix You.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Fix%20You.mp3"
+        },
+        {
+          "file": "FRIENDS.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/FRIENDS.mp3"
+        },
+        {
+          "file": "Goo Goo Dolls - Iris.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Goo%20Goo%20Dolls%20-%20Iris.mp3"
+        },
+        {
+          "file": "Harry Styles.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Harry%20Styles.mp3"
+        },
+        {
+          "file": "Hello.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Hello.mp3"
+        },
+        {
+          "file": "Hey, Soul Sister.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Hey%2C%20Soul%20Sister.mp3"
+        },
+        {
+          "file": "How Far I'll Go.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/How%20Far%20I%27ll%20Go.mp3"
+        },
+        {
+          "file": "Human.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Human.mp3"
+        },
+        {
+          "file": "Hurt.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Hurt.mp3"
+        },
+        {
+          "file": "I WANNA BE YOUR SLAVE.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/I%20WANNA%20BE%20YOUR%20SLAVE.mp3"
+        },
+        {
+          "file": "I Wanna Be Yours.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/I%20Wanna%20Be%20Yours.mp3"
+        },
+        {
+          "file": "I'm a Believer.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/I%27m%20a%20Believer.mp3"
+        },
+        {
+          "file": "I'm A Mess.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/I%27m%20A%20Mess.mp3"
+        },
+        {
+          "file": "I'm Still Here (Jim's Theme) from Treasure Planet.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/I%27m%20Still%20Here%20%28Jim%27s%20Theme%29%20from%20Treasure%20Planet.mp3"
+        },
+        {
+          "file": "I'm Yours.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/I%27m%20Yours.mp3"
+        },
+        {
+          "file": "IDGAF.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/IDGAF.mp3"
+        },
+        {
+          "file": "Is This Love.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Is%20This%20Love.mp3"
+        },
+        {
+          "file": "Jackson 5 ABC.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Jackson%205%20ABC.mp3"
+        },
+        {
+          "file": "Just Give Me a Reason.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Just%20Give%20Me%20a%20Reason.mp3"
+        },
+        {
+          "file": "Lemon Tree.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Lemon%20Tree.mp3"
+        },
+        {
+          "file": "Livin' La Vida Loca.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Livin%27%20La%20Vida%20Loca.mp3"
+        },
+        {
+          "file": "Lost On You.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Lost%20On%20You.mp3"
+        },
+        {
+          "file": "Love Me Like You Do.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Love%20Me%20Like%20You%20Do.mp3"
+        },
+        {
+          "file": "Love Story.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Love%20Story.mp3"
+        },
+        {
+          "file": "Love Yourself.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Love%20Yourself.mp3"
+        },
+        {
+          "file": "lovely.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/lovely.mp3"
+        },
+        {
+          "file": "Memories.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Memories.mp3"
+        },
+        {
+          "file": "Money Money Money.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Money%20Money%20Money.mp3"
+        },
+        {
+          "file": "My Heart Will Go On.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/My%20Heart%20Will%20Go%20On.mp3"
+        },
+        {
+          "file": "My Universe.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/My%20Universe.mp3"
+        },
+        {
+          "file": "My Way.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/My%20Way.mp3"
+        },
+        {
+          "file": "Need You Now.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Need%20You%20Now.mp3"
+        },
+        {
+          "file": "Nothing Else Matters.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Nothing%20Else%20Matters.mp3"
+        },
+        {
+          "file": "November Rain.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/November%20Rain.mp3"
+        },
+        {
+          "file": "One And Only.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/One%20And%20Only.mp3"
+        },
+        {
+          "file": "Panic! At the Disco - High Hopes.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Panic%21%20At%20the%20Disco%20-%20High%20Hopes.mp3"
+        },
+        {
+          "file": "Perfect.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Perfect.mp3"
+        },
+        {
+          "file": "Photograph.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Photograph.mp3"
+        },
+        {
+          "file": "Rasputin.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Rasputin.mp3"
+        },
+        {
+          "file": "Roar.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Roar.mp3"
+        },
+        {
+          "file": "Rude.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Rude.mp3"
+        },
+        {
+          "file": "Safe And Sound.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Safe%20And%20Sound.mp3"
+        },
+        {
+          "file": "Say My Name.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Say%20My%20Name.mp3"
+        },
+        {
+          "file": "Scared To Be Lonely.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Scared%20To%20Be%20Lonely.mp3"
+        },
+        {
+          "file": "Señorita.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Se%C3%B1orita.mp3"
+        },
+        {
+          "file": "Shape Of You.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Shape%20Of%20You.mp3"
+        },
+        {
+          "file": "Sleepover.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Sleepover.mp3"
+        },
+        {
+          "file": "Smells Like Teen Spirit.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Smells%20Like%20Teen%20Spirit.mp3"
+        },
+        {
+          "file": "Someone Like You.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Someone%20Like%20You.mp3"
+        },
+        {
+          "file": "Stay.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Stay.mp3"
+        },
+        {
+          "file": "Still Into You.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Still%20Into%20You.mp3"
+        },
+        {
+          "file": "Sweet Child O' Mine.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Sweet%20Child%20O%27%20Mine.mp3"
+        },
+        {
+          "file": "Take Me To Church.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Take%20Me%20To%20Church.mp3"
+        },
+        {
+          "file": "The Chainsmokers.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/The%20Chainsmokers.mp3"
+        },
+        {
+          "file": "The Greatest Showman - The other side.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/The%20Greatest%20Showman%20-%20The%20other%20side.mp3"
+        },
+        {
+          "file": "The Only Exception.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/The%20Only%20Exception.mp3"
+        },
+        {
+          "file": "The Police.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/The%20Police.mp3"
+        },
+        {
+          "file": "The Reason.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/The%20Reason.mp3"
+        },
+        {
+          "file": "Three Little Birds.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Three%20Little%20Birds.mp3"
+        },
+        {
+          "file": "Thunder.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Thunder.mp3"
+        },
+        {
+          "file": "Too Good At Goodbyes.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Too%20Good%20At%20Goodbyes.mp3"
+        },
+        {
+          "file": "Treat You Better.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Treat%20You%20Better.mp3"
+        },
+        {
+          "file": "Wake Me Up When September Ends.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Wake%20Me%20Up%20When%20September%20Ends.mp3"
+        },
+        {
+          "file": "When You're Gone.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/When%20You%27re%20Gone.mp3"
+        },
+        {
+          "file": "Wish You Were Here.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Wish%20You%20Were%20Here.mp3"
+        },
+        {
+          "file": "Wonderwall.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Wonderwall.mp3"
+        },
+        {
+          "file": "Yellow.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Yellow.mp3"
+        },
+        {
+          "file": "You're Beautiful.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/You%27re%20Beautiful.mp3"
+        }
       ]
     },
     {
@@ -254,9 +878,18 @@
       "description": "Romantic tracks",
       "cover": "songs/Love-Songs/image.png",
       "songs": [
-        "Chalte Chalte.mp3",
-        "Chand Sifarish.mp3",
-        "Ranjha – Official Video ｜ Shershaah ｜ Sidharth–Kiara ｜ B Praak ｜ Jasleen Royal ｜ Romy ｜ Anvita Dutt [V7LwfY5U5WI].mp3"
+        {
+          "file": "Chalte Chalte.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Chalte%20Chalte.mp3"
+        },
+        {
+          "file": "Chand Sifarish.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Chand%20Sifarish.mp3"
+        },
+        {
+          "file": "Ranjha – Official Video ｜ Shershaah ｜ Sidharth–Kiara ｜ B Praak ｜ Jasleen Royal ｜ Romy ｜ Anvita Dutt [V7LwfY5U5WI].mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Ranjha%20%E2%80%93%20Official%20Video%20%EF%BD%9C%20Shershaah%20%EF%BD%9C%20Sidharth%E2%80%93Kiara%20%EF%BD%9C%20B%20Praak%20%EF%BD%9C%20Jasleen%20Royal%20%EF%BD%9C%20Romy%20%EF%BD%9C%20Anvita%20Dutt%20%5BV7LwfY5U5WI%5D.mp3"
+        }
       ]
     },
     {
@@ -265,17 +898,50 @@
       "description": "DJ mixes and remixes",
       "cover": "songs/Mashup-Songs/image.png",
       "songs": [
-        "Bollywood Dance MIX.mp3",
-        "DJ Chetas - House Party Dance Mix.mp3",
-        "House Party Dance Songs.mp3",
-        "Mitron Dandiya Mashup.mp3",
-        "Non-stop Party Jukebox 2024.mp3",
-        "Party Mashup.mp3",
-        "Ranveer Singh Superhit Songs.mp3",
-        "Sawan Mein Lag Gayi Aag - Dandiya Beat Mix.mp3",
-        "Shershaah Mashup.mp3",
-        "The Proper Mashup - DJ Dholi Deep.mp3",
-        "Young Shahrukh (Slowed).mp3"
+        {
+          "file": "Bollywood Dance MIX.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Bollywood%20Dance%20MIX.mp3"
+        },
+        {
+          "file": "DJ Chetas - House Party Dance Mix.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/DJ%20Chetas%20-%20House%20Party%20Dance%20Mix.mp3"
+        },
+        {
+          "file": "House Party Dance Songs.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/House%20Party%20Dance%20Songs.mp3"
+        },
+        {
+          "file": "Mitron Dandiya Mashup.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Mitron%20Dandiya%20Mashup.mp3"
+        },
+        {
+          "file": "Non-stop Party Jukebox 2024.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Non-stop%20Party%20Jukebox%202024.mp3"
+        },
+        {
+          "file": "Party Mashup.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Party%20Mashup.mp3"
+        },
+        {
+          "file": "Ranveer Singh Superhit Songs.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Ranveer%20Singh%20Superhit%20Songs.mp3"
+        },
+        {
+          "file": "Sawan Mein Lag Gayi Aag - Dandiya Beat Mix.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Sawan%20Mein%20Lag%20Gayi%20Aag%20-%20Dandiya%20Beat%20Mix.mp3"
+        },
+        {
+          "file": "Shershaah Mashup.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Shershaah%20Mashup.mp3"
+        },
+        {
+          "file": "The Proper Mashup - DJ Dholi Deep.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/The%20Proper%20Mashup%20-%20DJ%20Dholi%20Deep.mp3"
+        },
+        {
+          "file": "Young Shahrukh (Slowed).mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Young%20Shahrukh%20%28Slowed%29.mp3"
+        }
       ]
     },
     {
@@ -284,155 +950,602 @@
       "description": "Emotional and sad songs",
       "cover": "songs/Mood-off/cover.jpg",
       "songs": [
-        "Aa Zara.mp3",
-        "Aaj Bhi.mp3",
-        "Aaya Na Tu.mp3",
-        "Ab Tere Bin Jee Lenge Hum.mp3",
-        "Abhi Mujh Mein Kahin.mp3",
-        "Ae Dil Hai Mushkil.mp3",
-        "Ae Mere Dil.mp3",
-        "Agar Tum Saath Ho.mp3",
-        "Ajnabi.mp3",
-        "Awari.mp3",
-        "Aye Khuda.mp3",
-        "Baarish Ki Jaaye.mp3",
-        "Baarish.mp3",
-        "BAARISHEIN.mp3",
-        "Babbu Maan.mp3",
-        "Banjaara.mp3",
-        "Bekhayali.mp3",
-        "Besharam Bewaffa.mp3",
-        "Bhula Dunga.mp3",
-        "BOL DO NA ZARA.mp3",
-        "Bulleya.mp3",
-        "Chahun Main Ya Naa.mp3",
-        "Chal Wahan Jaate Hain.mp3",
-        "Chan Kitthan.mp3",
-        "Channa Mereya.mp3",
-        "Chhor Denge.mp3",
-        "Chidiya.mp3",
-        "Dekhte Dekhte.mp3",
-        "Dheere Dheere Se Meri Zindagi.mp3",
-        "Dil De Diya Hai.mp3",
-        "Dil Diyan Gallan.mp3",
-        "Dil Ibaadar.mp3",
-        "Dil Ki Purani Sadak.mp3",
-        "Dil Meri Na Sune.mp3",
-        "Dil Sambhal Ja Zara Phir Mohabbat.mp3",
-        "Doob Gaye.mp3",
-        "Dooriyan.mp3",
-        "EK MULAQAT.mp3",
-        "Ek Raat.mp3",
-        "FILHALL.mp3",
-        "Galliyan.mp3",
-        "Guzarish.mp3",
-        "Haan Tu Hain.mp3",
-        "Hale Dil Tujhko Sunata.mp3",
-        "Hamari Adhuri Kahani.mp3",
-        "Haseena.mp3",
-        "Hasi.mp3",
-        "Hawayein.mp3",
-        "Honge Juda Na Hum.mp3",
-        "Hum Mar Jayenge.mp3",
-        "Humdard.mp3",
-        "Humnava Mere.mp3",
-        "Humnava.mp3",
-        "Ik Mulaqaat.mp3",
-        "Intezaar.mp3",
-        "Ja Tere Bina.mp3",
-        "Jab Koi Baat.mp3",
-        "Jeene Laga Hoon.mp3",
-        "Jo Bheji Thi Duaa Shanghai.mp3",
-        "Jo Tu Na Mila.mp3",
-        "Kabhi Jo Badal Barse.mp3",
-        "Kabira.mp3",
-        "Kaise Hua.mp3",
-        "Kaise Mujhe.mp3",
-        "KAUN TUJHE.mp3",
-        "KHAIRIYAT.mp3",
-        "Khamoshiyan.mp3",
-        "Khuda Bhi Jab.mp3",
-        "Khuda Bhi.mp3",
-        "Khuda Jaane.mp3",
-        "Kinara.mp3",
-        "Kuch Bhi Ho Jaye.mp3",
-        "Kuch Is Tarah.mp3",
-        "Kun Faya Kun.mp3",
-        "KYON.mp3",
-        "Lut Gaye.mp3",
-        "Maahi.mp3",
-        "Maana Dil.mp3",
-        "Main Rahoon Ya Na Rahoon.mp3",
-        "Malang.mp3",
-        "MAZAA.mp3",
-        "Mera Gham.mp3",
-        "Mera Mann Kehne Laga.mp3",
-        "Mere Bina.mp3",
-        "Mere Haath Mein.mp3",
-        "Meri Aashiqui.mp3",
-        "Mi Amor.mp3",
-        "Mile Ho Tum.mp3",
-        "Milne Hai Mujhse Aayi.mp3",
-        "Milo Na Tum.mp3",
-        "Mitti Di Khushboo.mp3",
-        "Mujhe Peene Do.mp3",
-        "Musafir.mp3",
-        "Na Kare Ke Ye Zindagi Kabhi Kisi Ko Daga De.mp3",
-        "Nazm Nazm.mp3",
-        "O Khuda.mp3",
-        "Oye Raju Pyar Na Kariyo.mp3",
-        "Pachtaoge.mp3",
-        "Pani Da Rang.mp3",
-        "Parchayi.mp3",
-        "Pathar.mp3",
-        "Pee Loon.mp3",
-        "Pehli Dafa.mp3",
-        "Pehli Nazar Mein Kaise Jaado Kar Diya.mp3",
-        "Phir Bhi Tumko Chaahunga.mp3",
-        "Phir Mohabbat.mp3",
-        "Piya Aaye Na.mp3",
-        "Raabta.mp3",
-        "Sadi Gali.mp3",
-        "Samjhawan.mp3",
-        "Samundar.mp3",
-        "Shagufta Dili.mp3",
-        "Shayad.mp3",
-        "Shukriya.mp3",
-        "Sunn Raha Hai Na Tu (2).mp3",
-        "Tanhai.mp3",
-        "Tera Deedar Hua.mp3",
-        "Tera Ghata.mp3",
-        "Tera Hone Laga Hoon.mp3",
-        "Tera Hua.mp3",
-        "Tera Zikr.mp3",
-        "Tere Liye.mp3",
-        "Tere Sang Yaara.mp3",
-        "Toot Jaayein.mp3",
-        "Toota Jo Kabhi Tara.mp3",
-        "Tu Har Lamha.mp3",
-        "Tu Hi Haqeeqat.mp3",
-        "Tu Hi Mera.mp3",
-        "Tu Jaane Na.mp3",
-        "Tu Mera Nahi.mp3",
-        "Tu Na Jaane Aas Paas Hai Khuda.mp3",
-        "Tujhe Kitna Chahne Lage.mp3",
-        "Tujhe Sochta Hoon.mp3",
-        "Tum Hi Aana.mp3",
-        "Tum Hi Ho.mp3",
-        "Tum Jo Aaye.mp3",
-        "Tumhe Dillagi.mp3",
-        "Tune Mere Jaana Kabhi Nahi Jaana.mp3",
-        "Umeed.mp3",
-        "Uska Hi Banana.mp3",
-        "Vaaste Song.mp3",
-        "Ve Maahi.mp3",
-        "Veham.mp3",
-        "YAAD HAI NA.mp3",
-        "Yeh Dooriyan.mp3",
-        "Zara Sa.mp3",
-        "Zaroorat.mp3",
-        "Zaroori Tha.mp3",
-        "Zehnaseeb.mp3"
+        {
+          "file": "Aa Zara.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Aa%20Zara.mp3"
+        },
+        {
+          "file": "Aaj Bhi.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Aaj%20Bhi.mp3"
+        },
+        {
+          "file": "Aaya Na Tu.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Aaya%20Na%20Tu.mp3"
+        },
+        {
+          "file": "Ab Tere Bin Jee Lenge Hum.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Ab%20Tere%20Bin%20Jee%20Lenge%20Hum.mp3"
+        },
+        {
+          "file": "Abhi Mujh Mein Kahin.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Abhi%20Mujh%20Mein%20Kahin.mp3"
+        },
+        {
+          "file": "Ae Dil Hai Mushkil.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Ae%20Dil%20Hai%20Mushkil.mp3"
+        },
+        {
+          "file": "Ae Mere Dil.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Ae%20Mere%20Dil.mp3"
+        },
+        {
+          "file": "Agar Tum Saath Ho.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Agar%20Tum%20Saath%20Ho.mp3"
+        },
+        {
+          "file": "Ajnabi.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Ajnabi.mp3"
+        },
+        {
+          "file": "Awari.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Awari.mp3"
+        },
+        {
+          "file": "Aye Khuda.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Aye%20Khuda.mp3"
+        },
+        {
+          "file": "Baarish Ki Jaaye.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Baarish%20Ki%20Jaaye.mp3"
+        },
+        {
+          "file": "Baarish.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Baarish.mp3"
+        },
+        {
+          "file": "BAARISHEIN.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/BAARISHEIN.mp3"
+        },
+        {
+          "file": "Babbu Maan.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Babbu%20Maan.mp3"
+        },
+        {
+          "file": "Banjaara.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Banjaara.mp3"
+        },
+        {
+          "file": "Bekhayali.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Bekhayali.mp3"
+        },
+        {
+          "file": "Besharam Bewaffa.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Besharam%20Bewaffa.mp3"
+        },
+        {
+          "file": "Bhula Dunga.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Bhula%20Dunga.mp3"
+        },
+        {
+          "file": "BOL DO NA ZARA.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/BOL%20DO%20NA%20ZARA.mp3"
+        },
+        {
+          "file": "Bulleya.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Bulleya.mp3"
+        },
+        {
+          "file": "Chahun Main Ya Naa.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Chahun%20Main%20Ya%20Naa.mp3"
+        },
+        {
+          "file": "Chal Wahan Jaate Hain.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Chal%20Wahan%20Jaate%20Hain.mp3"
+        },
+        {
+          "file": "Chan Kitthan.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Chan%20Kitthan.mp3"
+        },
+        {
+          "file": "Channa Mereya.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Channa%20Mereya.mp3"
+        },
+        {
+          "file": "Chhor Denge.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Chhor%20Denge.mp3"
+        },
+        {
+          "file": "Chidiya.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Chidiya.mp3"
+        },
+        {
+          "file": "Dekhte Dekhte.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Dekhte%20Dekhte.mp3"
+        },
+        {
+          "file": "Dheere Dheere Se Meri Zindagi.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Dheere%20Dheere%20Se%20Meri%20Zindagi.mp3"
+        },
+        {
+          "file": "Dil De Diya Hai.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Dil%20De%20Diya%20Hai.mp3"
+        },
+        {
+          "file": "Dil Diyan Gallan.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Dil%20Diyan%20Gallan.mp3"
+        },
+        {
+          "file": "Dil Ibaadar.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Dil%20Ibaadar.mp3"
+        },
+        {
+          "file": "Dil Ki Purani Sadak.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Dil%20Ki%20Purani%20Sadak.mp3"
+        },
+        {
+          "file": "Dil Meri Na Sune.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Dil%20Meri%20Na%20Sune.mp3"
+        },
+        {
+          "file": "Dil Sambhal Ja Zara Phir Mohabbat.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Dil%20Sambhal%20Ja%20Zara%20Phir%20Mohabbat.mp3"
+        },
+        {
+          "file": "Doob Gaye.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Doob%20Gaye.mp3"
+        },
+        {
+          "file": "Dooriyan.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Dooriyan.mp3"
+        },
+        {
+          "file": "EK MULAQAT.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/EK%20MULAQAT.mp3"
+        },
+        {
+          "file": "Ek Raat.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Ek%20Raat.mp3"
+        },
+        {
+          "file": "FILHALL.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/FILHALL.mp3"
+        },
+        {
+          "file": "Galliyan.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Galliyan.mp3"
+        },
+        {
+          "file": "Guzarish.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Guzarish.mp3"
+        },
+        {
+          "file": "Haan Tu Hain.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Haan%20Tu%20Hain.mp3"
+        },
+        {
+          "file": "Hale Dil Tujhko Sunata.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Hale%20Dil%20Tujhko%20Sunata.mp3"
+        },
+        {
+          "file": "Hamari Adhuri Kahani.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Hamari%20Adhuri%20Kahani.mp3"
+        },
+        {
+          "file": "Haseena.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Haseena.mp3"
+        },
+        {
+          "file": "Hasi.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Hasi.mp3"
+        },
+        {
+          "file": "Hawayein.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Hawayein.mp3"
+        },
+        {
+          "file": "Honge Juda Na Hum.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Honge%20Juda%20Na%20Hum.mp3"
+        },
+        {
+          "file": "Hum Mar Jayenge.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Hum%20Mar%20Jayenge.mp3"
+        },
+        {
+          "file": "Humdard.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Humdard.mp3"
+        },
+        {
+          "file": "Humnava Mere.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Humnava%20Mere.mp3"
+        },
+        {
+          "file": "Humnava.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Humnava.mp3"
+        },
+        {
+          "file": "Ik Mulaqaat.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Ik%20Mulaqaat.mp3"
+        },
+        {
+          "file": "Intezaar.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Intezaar.mp3"
+        },
+        {
+          "file": "Ja Tere Bina.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Ja%20Tere%20Bina.mp3"
+        },
+        {
+          "file": "Jab Koi Baat.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Jab%20Koi%20Baat.mp3"
+        },
+        {
+          "file": "Jeene Laga Hoon.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Jeene%20Laga%20Hoon.mp3"
+        },
+        {
+          "file": "Jo Bheji Thi Duaa Shanghai.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Jo%20Bheji%20Thi%20Duaa%20Shanghai.mp3"
+        },
+        {
+          "file": "Jo Tu Na Mila.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Jo%20Tu%20Na%20Mila.mp3"
+        },
+        {
+          "file": "Kabhi Jo Badal Barse.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Kabhi%20Jo%20Badal%20Barse.mp3"
+        },
+        {
+          "file": "Kabira.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Kabira.mp3"
+        },
+        {
+          "file": "Kaise Hua.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Kaise%20Hua.mp3"
+        },
+        {
+          "file": "Kaise Mujhe.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Kaise%20Mujhe.mp3"
+        },
+        {
+          "file": "KAUN TUJHE.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/KAUN%20TUJHE.mp3"
+        },
+        {
+          "file": "KHAIRIYAT.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/KHAIRIYAT.mp3"
+        },
+        {
+          "file": "Khamoshiyan.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Khamoshiyan.mp3"
+        },
+        {
+          "file": "Khuda Bhi Jab.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Khuda%20Bhi%20Jab.mp3"
+        },
+        {
+          "file": "Khuda Bhi.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Khuda%20Bhi.mp3"
+        },
+        {
+          "file": "Khuda Jaane.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Khuda%20Jaane.mp3"
+        },
+        {
+          "file": "Kinara.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Kinara.mp3"
+        },
+        {
+          "file": "Kuch Bhi Ho Jaye.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Kuch%20Bhi%20Ho%20Jaye.mp3"
+        },
+        {
+          "file": "Kuch Is Tarah.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Kuch%20Is%20Tarah.mp3"
+        },
+        {
+          "file": "Kun Faya Kun.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Kun%20Faya%20Kun.mp3"
+        },
+        {
+          "file": "KYON.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/KYON.mp3"
+        },
+        {
+          "file": "Lut Gaye.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Lut%20Gaye.mp3"
+        },
+        {
+          "file": "Maahi.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Maahi.mp3"
+        },
+        {
+          "file": "Maana Dil.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Maana%20Dil.mp3"
+        },
+        {
+          "file": "Main Rahoon Ya Na Rahoon.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Main%20Rahoon%20Ya%20Na%20Rahoon.mp3"
+        },
+        {
+          "file": "Malang.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Malang.mp3"
+        },
+        {
+          "file": "MAZAA.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/MAZAA.mp3"
+        },
+        {
+          "file": "Mera Gham.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Mera%20Gham.mp3"
+        },
+        {
+          "file": "Mera Mann Kehne Laga.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Mera%20Mann%20Kehne%20Laga.mp3"
+        },
+        {
+          "file": "Mere Bina.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Mere%20Bina.mp3"
+        },
+        {
+          "file": "Mere Haath Mein.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Mere%20Haath%20Mein.mp3"
+        },
+        {
+          "file": "Meri Aashiqui.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Meri%20Aashiqui.mp3"
+        },
+        {
+          "file": "Mi Amor.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Mi%20Amor.mp3"
+        },
+        {
+          "file": "Mile Ho Tum.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Mile%20Ho%20Tum.mp3"
+        },
+        {
+          "file": "Milne Hai Mujhse Aayi.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Milne%20Hai%20Mujhse%20Aayi.mp3"
+        },
+        {
+          "file": "Milo Na Tum.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Milo%20Na%20Tum.mp3"
+        },
+        {
+          "file": "Mitti Di Khushboo.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Mitti%20Di%20Khushboo.mp3"
+        },
+        {
+          "file": "Mujhe Peene Do.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Mujhe%20Peene%20Do.mp3"
+        },
+        {
+          "file": "Musafir.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Musafir.mp3"
+        },
+        {
+          "file": "Na Kare Ke Ye Zindagi Kabhi Kisi Ko Daga De.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Na%20Kare%20Ke%20Ye%20Zindagi%20Kabhi%20Kisi%20Ko%20Daga%20De.mp3"
+        },
+        {
+          "file": "Nazm Nazm.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Nazm%20Nazm.mp3"
+        },
+        {
+          "file": "O Khuda.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/O%20Khuda.mp3"
+        },
+        {
+          "file": "Oye Raju Pyar Na Kariyo.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Oye%20Raju%20Pyar%20Na%20Kariyo.mp3"
+        },
+        {
+          "file": "Pachtaoge.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Pachtaoge.mp3"
+        },
+        {
+          "file": "Pani Da Rang.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Pani%20Da%20Rang.mp3"
+        },
+        {
+          "file": "Parchayi.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Parchayi.mp3"
+        },
+        {
+          "file": "Pathar.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Pathar.mp3"
+        },
+        {
+          "file": "Pee Loon.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Pee%20Loon.mp3"
+        },
+        {
+          "file": "Pehli Dafa.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Pehli%20Dafa.mp3"
+        },
+        {
+          "file": "Pehli Nazar Mein Kaise Jaado Kar Diya.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Pehli%20Nazar%20Mein%20Kaise%20Jaado%20Kar%20Diya.mp3"
+        },
+        {
+          "file": "Phir Bhi Tumko Chaahunga.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Phir%20Bhi%20Tumko%20Chaahunga.mp3"
+        },
+        {
+          "file": "Phir Mohabbat.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Phir%20Mohabbat.mp3"
+        },
+        {
+          "file": "Piya Aaye Na.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Piya%20Aaye%20Na.mp3"
+        },
+        {
+          "file": "Raabta.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Raabta.mp3"
+        },
+        {
+          "file": "Sadi Gali.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Sadi%20Gali.mp3"
+        },
+        {
+          "file": "Samjhawan.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Samjhawan.mp3"
+        },
+        {
+          "file": "Samundar.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Samundar.mp3"
+        },
+        {
+          "file": "Shagufta Dili.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Shagufta%20Dili.mp3"
+        },
+        {
+          "file": "Shayad.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Shayad.mp3"
+        },
+        {
+          "file": "Shukriya.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Shukriya.mp3"
+        },
+        {
+          "file": "Sunn Raha Hai Na Tu (2).mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Sunn%20Raha%20Hai%20Na%20Tu%20%282%29.mp3"
+        },
+        {
+          "file": "Tanhai.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tanhai.mp3"
+        },
+        {
+          "file": "Tera Deedar Hua.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tera%20Deedar%20Hua.mp3"
+        },
+        {
+          "file": "Tera Ghata.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tera%20Ghata.mp3"
+        },
+        {
+          "file": "Tera Hone Laga Hoon.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tera%20Hone%20Laga%20Hoon.mp3"
+        },
+        {
+          "file": "Tera Hua.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tera%20Hua.mp3"
+        },
+        {
+          "file": "Tera Zikr.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tera%20Zikr.mp3"
+        },
+        {
+          "file": "Tere Liye.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tere%20Liye.mp3"
+        },
+        {
+          "file": "Tere Sang Yaara.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tere%20Sang%20Yaara.mp3"
+        },
+        {
+          "file": "Toot Jaayein.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Toot%20Jaayein.mp3"
+        },
+        {
+          "file": "Toota Jo Kabhi Tara.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Toota%20Jo%20Kabhi%20Tara.mp3"
+        },
+        {
+          "file": "Tu Har Lamha.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tu%20Har%20Lamha.mp3"
+        },
+        {
+          "file": "Tu Hi Haqeeqat.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tu%20Hi%20Haqeeqat.mp3"
+        },
+        {
+          "file": "Tu Hi Mera.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tu%20Hi%20Mera.mp3"
+        },
+        {
+          "file": "Tu Jaane Na.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tu%20Jaane%20Na.mp3"
+        },
+        {
+          "file": "Tu Mera Nahi.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tu%20Mera%20Nahi.mp3"
+        },
+        {
+          "file": "Tu Na Jaane Aas Paas Hai Khuda.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tu%20Na%20Jaane%20Aas%20Paas%20Hai%20Khuda.mp3"
+        },
+        {
+          "file": "Tujhe Kitna Chahne Lage.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tujhe%20Kitna%20Chahne%20Lage.mp3"
+        },
+        {
+          "file": "Tujhe Sochta Hoon.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tujhe%20Sochta%20Hoon.mp3"
+        },
+        {
+          "file": "Tum Hi Aana.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tum%20Hi%20Aana.mp3"
+        },
+        {
+          "file": "Tum Hi Ho.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tum%20Hi%20Ho.mp3"
+        },
+        {
+          "file": "Tum Jo Aaye.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tum%20Jo%20Aaye.mp3"
+        },
+        {
+          "file": "Tumhe Dillagi.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tumhe%20Dillagi.mp3"
+        },
+        {
+          "file": "Tune Mere Jaana Kabhi Nahi Jaana.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tune%20Mere%20Jaana%20Kabhi%20Nahi%20Jaana.mp3"
+        },
+        {
+          "file": "Umeed.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Umeed.mp3"
+        },
+        {
+          "file": "Uska Hi Banana.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Uska%20Hi%20Banana.mp3"
+        },
+        {
+          "file": "Vaaste Song.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Vaaste%20Song.mp3"
+        },
+        {
+          "file": "Ve Maahi.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Ve%20Maahi.mp3"
+        },
+        {
+          "file": "Veham.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Veham.mp3"
+        },
+        {
+          "file": "YAAD HAI NA.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/YAAD%20HAI%20NA.mp3"
+        },
+        {
+          "file": "Yeh Dooriyan.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Yeh%20Dooriyan.mp3"
+        },
+        {
+          "file": "Zara Sa.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Zara%20Sa.mp3"
+        },
+        {
+          "file": "Zaroorat.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Zaroorat.mp3"
+        },
+        {
+          "file": "Zaroori Tha.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Zaroori%20Tha.mp3"
+        },
+        {
+          "file": "Zehnaseeb.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Zehnaseeb.mp3"
+        }
       ]
     },
     {
@@ -441,32 +1554,110 @@
       "description": "Classic emotional tracks",
       "cover": "songs/Old Sad Songs/image.png",
       "songs": [
-        "Aankhein Khuli.mp3",
-        "Agar Tum Mil Jao - From _Zeher_.mp3",
-        "Aksar Is Duniya Mein (From _Dhadkan_).mp3",
-        "Bahut Jatate Ho Pyar (From _Aadmi Khilona Hai_).mp3",
-        "Barsaat Ke Mausam Mein.mp3",
-        "Chaaha Hai Tujhko.mp3",
-        "Chalte Chalte.mp3",
-        "Chand Ke Paar Chalo - Sad.mp3",
-        "Chand Se Parda.mp3",
-        "Dekha Hai Pehli Baar (From _Saajan_).mp3",
-        "Dekhne Walon Ne - From ''Chori Chori Chupke Chupke''.mp3",
-        "Dil Mera Tod Diya.mp3",
-        "Dil Ne Yeh Kaha Hain Dil Se (From _Dhadkan_).mp3",
-        "Hum to Dil Se Haare (From _Josh_).mp3",
-        "Hum Yaar Hai Tumhare.mp3",
-        "Kabhi Hasna Hai Kabhi.mp3",
-        "Kitni Bechain Hoke.mp3",
-        "Main Agar Saamne.mp3",
-        "Mere Mehboob Qayamat Hogi.mp3",
-        "Meri Mehbooba.mp3",
-        "Mile Tum Se Bichhad Ke Hum.mp3",
-        "Paas Woh Aane Lage (From _Main Khiladi Tu Anari_).mp3",
-        "Shaam Bhi Khoob Hai.mp3",
-        "Sun Meri Shehzadi - From _Dilwale_.mp3",
-        "Tum Dil Ki Dhadkan Mein.mp3",
-        "Tumsa Koi Pyaara.mp3"
+        {
+          "file": "Aankhein Khuli.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Aankhein%20Khuli.mp3"
+        },
+        {
+          "file": "Agar Tum Mil Jao - From _Zeher_.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Agar%20Tum%20Mil%20Jao%20-%20From%20_Zeher_.mp3"
+        },
+        {
+          "file": "Aksar Is Duniya Mein (From _Dhadkan_).mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Aksar%20Is%20Duniya%20Mein%20%28From%20_Dhadkan_%29.mp3"
+        },
+        {
+          "file": "Bahut Jatate Ho Pyar (From _Aadmi Khilona Hai_).mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Bahut%20Jatate%20Ho%20Pyar%20%28From%20_Aadmi%20Khilona%20Hai_%29.mp3"
+        },
+        {
+          "file": "Barsaat Ke Mausam Mein.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Barsaat%20Ke%20Mausam%20Mein.mp3"
+        },
+        {
+          "file": "Chaaha Hai Tujhko.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Chaaha%20Hai%20Tujhko.mp3"
+        },
+        {
+          "file": "Chalte Chalte.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Chalte%20Chalte.mp3"
+        },
+        {
+          "file": "Chand Ke Paar Chalo - Sad.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Chand%20Ke%20Paar%20Chalo%20-%20Sad.mp3"
+        },
+        {
+          "file": "Chand Se Parda.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Chand%20Se%20Parda.mp3"
+        },
+        {
+          "file": "Dekha Hai Pehli Baar (From _Saajan_).mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Dekha%20Hai%20Pehli%20Baar%20%28From%20_Saajan_%29.mp3"
+        },
+        {
+          "file": "Dekhne Walon Ne - From ''Chori Chori Chupke Chupke''.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Dekhne%20Walon%20Ne%20-%20From%20%27%27Chori%20Chori%20Chupke%20Chupke%27%27.mp3"
+        },
+        {
+          "file": "Dil Mera Tod Diya.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Dil%20Mera%20Tod%20Diya.mp3"
+        },
+        {
+          "file": "Dil Ne Yeh Kaha Hain Dil Se (From _Dhadkan_).mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Dil%20Ne%20Yeh%20Kaha%20Hain%20Dil%20Se%20%28From%20_Dhadkan_%29.mp3"
+        },
+        {
+          "file": "Hum to Dil Se Haare (From _Josh_).mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Hum%20to%20Dil%20Se%20Haare%20%28From%20_Josh_%29.mp3"
+        },
+        {
+          "file": "Hum Yaar Hai Tumhare.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Hum%20Yaar%20Hai%20Tumhare.mp3"
+        },
+        {
+          "file": "Kabhi Hasna Hai Kabhi.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Kabhi%20Hasna%20Hai%20Kabhi.mp3"
+        },
+        {
+          "file": "Kitni Bechain Hoke.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Kitni%20Bechain%20Hoke.mp3"
+        },
+        {
+          "file": "Main Agar Saamne.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Main%20Agar%20Saamne.mp3"
+        },
+        {
+          "file": "Mere Mehboob Qayamat Hogi.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Mere%20Mehboob%20Qayamat%20Hogi.mp3"
+        },
+        {
+          "file": "Meri Mehbooba.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Meri%20Mehbooba.mp3"
+        },
+        {
+          "file": "Mile Tum Se Bichhad Ke Hum.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Mile%20Tum%20Se%20Bichhad%20Ke%20Hum.mp3"
+        },
+        {
+          "file": "Paas Woh Aane Lage (From _Main Khiladi Tu Anari_).mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Paas%20Woh%20Aane%20Lage%20%28From%20_Main%20Khiladi%20Tu%20Anari_%29.mp3"
+        },
+        {
+          "file": "Shaam Bhi Khoob Hai.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Shaam%20Bhi%20Khoob%20Hai.mp3"
+        },
+        {
+          "file": "Sun Meri Shehzadi - From _Dilwale_.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Sun%20Meri%20Shehzadi%20-%20From%20_Dilwale_.mp3"
+        },
+        {
+          "file": "Tum Dil Ki Dhadkan Mein.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tum%20Dil%20Ki%20Dhadkan%20Mein.mp3"
+        },
+        {
+          "file": "Tumsa Koi Pyaara.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tumsa%20Koi%20Pyaara.mp3"
+        }
       ]
     },
     {
@@ -475,39 +1666,138 @@
       "description": "Classic Bollywood hits",
       "cover": "songs/Old-Songs/Old hindi.png",
       "songs": [
-        "Aankhein Khuli.mp3",
-        "Aksar Is Duniya Mein.mp3",
-        "Bole Chudiyan.mp3",
-        "Dheere Dheere Se Meri Zindagi Mein Aana.mp3",
-        "Dil Ka Aalam.mp3",
-        "Dil Laga Liya Maine Tumse Pyaar Karke.mp3",
-        "Dil Ne Ye Kaha Hai Dil Se.mp3",
-        "Ek Dilruba Hai.mp3",
-        "Ek Din Teri Raahon Mein.mp3",
-        "Humko Humise Chura Lo.mp3",
-        "Humko Tumse Pyar Hai.mp3",
-        "Ishq.mp3",
-        "Jaan-E-Jigar Jaaneman.mp3",
-        "Kal Ho Naa Ho.mp3",
-        "Koi Mil Gaya.mp3",
-        "Kyon Ki Itna Pyar.mp3",
-        "Kyun Main Jaagoon.mp3",
-        "Maahi Ve.mp3",
-        "Main Duniya Bhula Doonga.mp3",
-        "Mera Dil Tere Liye Dhadakta.mp3",
-        "Mere Mehboob Qayamat Hogi.mp3",
-        "Nazar Ke Samne Jigar Ke Paas.mp3",
-        "O Re Piya.mp3",
-        "Saanson Ki Jarurat Hai Jaise.mp3",
-        "Saawariya.mp3",
-        "Say ＂Shava Shava＂.mp3",
-        "Tere Naam Humne Kiya Hai.mp3",
-        "Tu Meri Zindagi Hai.mp3",
-        "Tujh Mein Rab Dikhta Hai.mp3",
-        "Tujhe Dekha Toh.mp3",
-        "Tumse Milke Dilka Jo Haal.mp3",
-        "You Are My Soniya.mp3",
-        "Zinda Rehti Hain Mohabbatein.mp3"
+        {
+          "file": "Aankhein Khuli.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Aankhein%20Khuli.mp3"
+        },
+        {
+          "file": "Aksar Is Duniya Mein.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Aksar%20Is%20Duniya%20Mein.mp3"
+        },
+        {
+          "file": "Bole Chudiyan.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Bole%20Chudiyan.mp3"
+        },
+        {
+          "file": "Dheere Dheere Se Meri Zindagi Mein Aana.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Dheere%20Dheere%20Se%20Meri%20Zindagi%20Mein%20Aana.mp3"
+        },
+        {
+          "file": "Dil Ka Aalam.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Dil%20Ka%20Aalam.mp3"
+        },
+        {
+          "file": "Dil Laga Liya Maine Tumse Pyaar Karke.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Dil%20Laga%20Liya%20Maine%20Tumse%20Pyaar%20Karke.mp3"
+        },
+        {
+          "file": "Dil Ne Ye Kaha Hai Dil Se.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Dil%20Ne%20Ye%20Kaha%20Hai%20Dil%20Se.mp3"
+        },
+        {
+          "file": "Ek Dilruba Hai.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Ek%20Dilruba%20Hai.mp3"
+        },
+        {
+          "file": "Ek Din Teri Raahon Mein.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Ek%20Din%20Teri%20Raahon%20Mein.mp3"
+        },
+        {
+          "file": "Humko Humise Chura Lo.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Humko%20Humise%20Chura%20Lo.mp3"
+        },
+        {
+          "file": "Humko Tumse Pyar Hai.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Humko%20Tumse%20Pyar%20Hai.mp3"
+        },
+        {
+          "file": "Ishq.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Ishq.mp3"
+        },
+        {
+          "file": "Jaan-E-Jigar Jaaneman.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Jaan-E-Jigar%20Jaaneman.mp3"
+        },
+        {
+          "file": "Kal Ho Naa Ho.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Kal%20Ho%20Naa%20Ho.mp3"
+        },
+        {
+          "file": "Koi Mil Gaya.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Koi%20Mil%20Gaya.mp3"
+        },
+        {
+          "file": "Kyon Ki Itna Pyar.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Kyon%20Ki%20Itna%20Pyar.mp3"
+        },
+        {
+          "file": "Kyun Main Jaagoon.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Kyun%20Main%20Jaagoon.mp3"
+        },
+        {
+          "file": "Maahi Ve.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Maahi%20Ve.mp3"
+        },
+        {
+          "file": "Main Duniya Bhula Doonga.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Main%20Duniya%20Bhula%20Doonga.mp3"
+        },
+        {
+          "file": "Mera Dil Tere Liye Dhadakta.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Mera%20Dil%20Tere%20Liye%20Dhadakta.mp3"
+        },
+        {
+          "file": "Mere Mehboob Qayamat Hogi.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Mere%20Mehboob%20Qayamat%20Hogi.mp3"
+        },
+        {
+          "file": "Nazar Ke Samne Jigar Ke Paas.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Nazar%20Ke%20Samne%20Jigar%20Ke%20Paas.mp3"
+        },
+        {
+          "file": "O Re Piya.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/O%20Re%20Piya.mp3"
+        },
+        {
+          "file": "Saanson Ki Jarurat Hai Jaise.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Saanson%20Ki%20Jarurat%20Hai%20Jaise.mp3"
+        },
+        {
+          "file": "Saawariya.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Saawariya.mp3"
+        },
+        {
+          "file": "Say ＂Shava Shava＂.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Say%20%EF%BC%82Shava%20Shava%EF%BC%82.mp3"
+        },
+        {
+          "file": "Tere Naam Humne Kiya Hai.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tere%20Naam%20Humne%20Kiya%20Hai.mp3"
+        },
+        {
+          "file": "Tu Meri Zindagi Hai.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tu%20Meri%20Zindagi%20Hai.mp3"
+        },
+        {
+          "file": "Tujh Mein Rab Dikhta Hai.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tujh%20Mein%20Rab%20Dikhta%20Hai.mp3"
+        },
+        {
+          "file": "Tujhe Dekha Toh.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tujhe%20Dekha%20Toh.mp3"
+        },
+        {
+          "file": "Tumse Milke Dilka Jo Haal.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Tumse%20Milke%20Dilka%20Jo%20Haal.mp3"
+        },
+        {
+          "file": "You Are My Soniya.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/You%20Are%20My%20Soniya.mp3"
+        },
+        {
+          "file": "Zinda Rehti Hain Mohabbatein.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Zinda%20Rehti%20Hain%20Mohabbatein.mp3"
+        }
       ]
     },
     {
@@ -516,48 +1806,174 @@
       "description": "High-energy dance tracks",
       "cover": "songs/Party/cover.jpeg",
       "songs": [
-        "Aa Re Pritam Pyaare.mp3",
-        "Aankh Marey.mp3",
-        "Abhi Toh Party Shuru Hui Hai.mp3",
-        "Akh Lad Jaave.mp3",
-        "Ankhiyon Se Goli Mare.mp3",
-        "Babuji Zara Dheere Chalo.mp3",
-        "Back to Start.mp3",
-        "Banna Re.mp3",
-        "Bhare Bazaar – Namaste England.mp3",
-        "Bom Diggy Diggy.mp3",
-        "Chaar Botal Vodka.mp3",
-        "Char Baj Gaye.mp3",
-        "Chikni Chameli.mp3",
-        "Chinta Ta Ta Chita Chita.mp3",
-        "Coca Cola.mp3",
-        "Dance Basanti.mp3",
-        "Desi Girl.mp3",
-        "Dhadhang Dhang.mp3",
-        "Genda Phool.mp3",
-        "I Hate Luv Storys.mp3",
-        "Kar Gayi Chull.mp3",
-        "Lahore.mp3",
-        "Laila.mp3",
-        "Let's Nacho.mp3",
-        "Manma Emotion Jaage.mp3",
-        "Maston Ka Jhund.mp3",
-        "Naagin.mp3",
-        "Naah Goriye.mp3",
-        "Nachange Saari Raat.mp3",
-        "Nadiyon Paar.mp3",
-        "Odhani.mp3",
-        "Panghat.mp3",
-        "Param Sundari.mp3",
-        "Proper Patola.mp3",
-        "Radha.mp3",
-        "Saturday Saturday.mp3",
-        "Sawan Mein Lag Gayi Aag.mp3",
-        "She Move It Like.mp3",
-        "The Breakup Song.mp3",
-        "The Disco Song.mp3",
-        "The Humma Song.mp3",
-        "Vele.mp3"
+        {
+          "file": "Aa Re Pritam Pyaare.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Aa%20Re%20Pritam%20Pyaare.mp3"
+        },
+        {
+          "file": "Aankh Marey.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Aankh%20Marey.mp3"
+        },
+        {
+          "file": "Abhi Toh Party Shuru Hui Hai.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Abhi%20Toh%20Party%20Shuru%20Hui%20Hai.mp3"
+        },
+        {
+          "file": "Akh Lad Jaave.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Akh%20Lad%20Jaave.mp3"
+        },
+        {
+          "file": "Ankhiyon Se Goli Mare.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Ankhiyon%20Se%20Goli%20Mare.mp3"
+        },
+        {
+          "file": "Babuji Zara Dheere Chalo.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Babuji%20Zara%20Dheere%20Chalo.mp3"
+        },
+        {
+          "file": "Back to Start.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Back%20to%20Start.mp3"
+        },
+        {
+          "file": "Banna Re.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Banna%20Re.mp3"
+        },
+        {
+          "file": "Bhare Bazaar – Namaste England.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Bhare%20Bazaar%20%E2%80%93%20Namaste%20England.mp3"
+        },
+        {
+          "file": "Bom Diggy Diggy.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Bom%20Diggy%20Diggy.mp3"
+        },
+        {
+          "file": "Chaar Botal Vodka.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Chaar%20Botal%20Vodka.mp3"
+        },
+        {
+          "file": "Char Baj Gaye.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Char%20Baj%20Gaye.mp3"
+        },
+        {
+          "file": "Chikni Chameli.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Chikni%20Chameli.mp3"
+        },
+        {
+          "file": "Chinta Ta Ta Chita Chita.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Chinta%20Ta%20Ta%20Chita%20Chita.mp3"
+        },
+        {
+          "file": "Coca Cola.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Coca%20Cola.mp3"
+        },
+        {
+          "file": "Dance Basanti.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Dance%20Basanti.mp3"
+        },
+        {
+          "file": "Desi Girl.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Desi%20Girl.mp3"
+        },
+        {
+          "file": "Dhadhang Dhang.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Dhadhang%20Dhang.mp3"
+        },
+        {
+          "file": "Genda Phool.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Genda%20Phool.mp3"
+        },
+        {
+          "file": "I Hate Luv Storys.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/I%20Hate%20Luv%20Storys.mp3"
+        },
+        {
+          "file": "Kar Gayi Chull.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Kar%20Gayi%20Chull.mp3"
+        },
+        {
+          "file": "Lahore.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Lahore.mp3"
+        },
+        {
+          "file": "Laila.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Laila.mp3"
+        },
+        {
+          "file": "Let's Nacho.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Let%27s%20Nacho.mp3"
+        },
+        {
+          "file": "Manma Emotion Jaage.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Manma%20Emotion%20Jaage.mp3"
+        },
+        {
+          "file": "Maston Ka Jhund.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Maston%20Ka%20Jhund.mp3"
+        },
+        {
+          "file": "Naagin.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Naagin.mp3"
+        },
+        {
+          "file": "Naah Goriye.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Naah%20Goriye.mp3"
+        },
+        {
+          "file": "Nachange Saari Raat.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Nachange%20Saari%20Raat.mp3"
+        },
+        {
+          "file": "Nadiyon Paar.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Nadiyon%20Paar.mp3"
+        },
+        {
+          "file": "Odhani.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Odhani.mp3"
+        },
+        {
+          "file": "Panghat.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Panghat.mp3"
+        },
+        {
+          "file": "Param Sundari.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Param%20Sundari.mp3"
+        },
+        {
+          "file": "Proper Patola.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Proper%20Patola.mp3"
+        },
+        {
+          "file": "Radha.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Radha.mp3"
+        },
+        {
+          "file": "Saturday Saturday.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Saturday%20Saturday.mp3"
+        },
+        {
+          "file": "Sawan Mein Lag Gayi Aag.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Sawan%20Mein%20Lag%20Gayi%20Aag.mp3"
+        },
+        {
+          "file": "She Move It Like.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/She%20Move%20It%20Like.mp3"
+        },
+        {
+          "file": "The Breakup Song.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/The%20Breakup%20Song.mp3"
+        },
+        {
+          "file": "The Disco Song.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/The%20Disco%20Song.mp3"
+        },
+        {
+          "file": "The Humma Song.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/The%20Humma%20Song.mp3"
+        },
+        {
+          "file": "Vele.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Vele.mp3"
+        }
       ]
     },
     {
@@ -566,11 +1982,26 @@
       "description": "Regional music",
       "cover": "songs/Punjabi-Songs/image.png",
       "songs": [
-        "Backbone.mp3",
-        "Dance Like.mp3",
-        "Gal Mitthi Mitthi.mp3",
-        "Haaye Oye.mp3",
-        "Kya Baat Ay.mp3"
+        {
+          "file": "Backbone.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Backbone.mp3"
+        },
+        {
+          "file": "Dance Like.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Dance%20Like.mp3"
+        },
+        {
+          "file": "Gal Mitthi Mitthi.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Gal%20Mitthi%20Mitthi.mp3"
+        },
+        {
+          "file": "Haaye Oye.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Haaye%20Oye.mp3"
+        },
+        {
+          "file": "Kya Baat Ay.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Kya%20Baat%20Ay.mp3"
+        }
       ]
     },
     {
@@ -579,66 +2010,246 @@
       "description": "Talwiinder's hits",
       "cover": "songs/Talwiinder/cover.jpeg",
       "songs": [
-        "AGG BANKE.mp3",
-        "AJA.mp3",
-        "AKHIYAN.mp3",
-        "ANDAAZ.mp3",
-        "ANONYMOUS.mp3",
-        "Baarish Da Mausam.mp3",
-        "BACH KE.mp3",
-        "BE MINE.mp3",
-        "CONVERSATION.mp3",
-        "DEAL 2.mp3",
-        "DIL DI GALL.mp3",
-        "DIL MERA.mp3",
-        "DIL TE DIMAG.mp3",
-        "DIL WICH.mp3",
-        "DON'T CARE.mp3",
-        "FLY AWAY.mp3",
-        "FOCUS.mp3",
-        "GALLAN 4.mp3",
-        "HAAL.mp3",
-        "HASEEN.mp3",
-        "HER.mp3",
-        "JAAM.mp3",
-        "JAAN.mp3",
-        "JOR.mp3",
-        "KAMMO JI.mp3",
-        "KASHNI.mp3",
-        "KEHRI DUNIYA.mp3",
-        "KHAYAAL.mp3",
-        "KHOYA.mp3",
-        "KITAAB.mp3",
-        "LOOK AT THEM.mp3",
-        "LUKAKE.mp3",
-        "MERA.mp3",
-        "MIDNIGHT DRIVE (Visualizer) Nowhere but Here.mp3",
-        "NAKHRE.mp3",
-        "NASHA.mp3",
-        "NEED.mp3",
-        "Paani Diyan Challan.mp3",
-        "PAJ NA.mp3",
-        "Pal Pal.mp3",
-        "PANCHII.mp3",
-        "Phir Bhi.mp3",
-        "Phir Mohabbat.mp3",
-        "RAAZ.mp3",
-        "Rippy.mp3",
-        "SAJJNA.mp3",
-        "SAMAJH NA AAVE.mp3",
-        "SAVE ME.mp3",
-        "SAY SOMETHING.mp3",
-        "Someone Like Me.mp3",
-        "TELL ME.mp3",
-        "TENU LAGGA.mp3",
-        "TERA CHERA.mp3",
-        "TERE BIN.mp3",
-        "TIME.mp3",
-        "TOGETHER.mp3",
-        "TU.mp3",
-        "TUNNEL VISION.mp3",
-        "YAAD.mp3",
-        "Your Eyes.mp3"
+        {
+          "file": "AGG BANKE.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/AGG%20BANKE.mp3"
+        },
+        {
+          "file": "AJA.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/AJA.mp3"
+        },
+        {
+          "file": "AKHIYAN.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/AKHIYAN.mp3"
+        },
+        {
+          "file": "ANDAAZ.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/ANDAAZ.mp3"
+        },
+        {
+          "file": "ANONYMOUS.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/ANONYMOUS.mp3"
+        },
+        {
+          "file": "Baarish Da Mausam.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Baarish%20Da%20Mausam.mp3"
+        },
+        {
+          "file": "BACH KE.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/BACH%20KE.mp3"
+        },
+        {
+          "file": "BE MINE.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/BE%20MINE.mp3"
+        },
+        {
+          "file": "CONVERSATION.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/CONVERSATION.mp3"
+        },
+        {
+          "file": "DEAL 2.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/DEAL%202.mp3"
+        },
+        {
+          "file": "DIL DI GALL.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/DIL%20DI%20GALL.mp3"
+        },
+        {
+          "file": "DIL MERA.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/DIL%20MERA.mp3"
+        },
+        {
+          "file": "DIL TE DIMAG.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/DIL%20TE%20DIMAG.mp3"
+        },
+        {
+          "file": "DIL WICH.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/DIL%20WICH.mp3"
+        },
+        {
+          "file": "DON'T CARE.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/DON%27T%20CARE.mp3"
+        },
+        {
+          "file": "FLY AWAY.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/FLY%20AWAY.mp3"
+        },
+        {
+          "file": "FOCUS.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/FOCUS.mp3"
+        },
+        {
+          "file": "GALLAN 4.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/GALLAN%204.mp3"
+        },
+        {
+          "file": "HAAL.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/HAAL.mp3"
+        },
+        {
+          "file": "HASEEN.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/HASEEN.mp3"
+        },
+        {
+          "file": "HER.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/HER.mp3"
+        },
+        {
+          "file": "JAAM.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/JAAM.mp3"
+        },
+        {
+          "file": "JAAN.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/JAAN.mp3"
+        },
+        {
+          "file": "JOR.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/JOR.mp3"
+        },
+        {
+          "file": "KAMMO JI.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/KAMMO%20JI.mp3"
+        },
+        {
+          "file": "KASHNI.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/KASHNI.mp3"
+        },
+        {
+          "file": "KEHRI DUNIYA.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/KEHRI%20DUNIYA.mp3"
+        },
+        {
+          "file": "KHAYAAL.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/KHAYAAL.mp3"
+        },
+        {
+          "file": "KHOYA.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/KHOYA.mp3"
+        },
+        {
+          "file": "KITAAB.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/KITAAB.mp3"
+        },
+        {
+          "file": "LOOK AT THEM.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/LOOK%20AT%20THEM.mp3"
+        },
+        {
+          "file": "LUKAKE.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/LUKAKE.mp3"
+        },
+        {
+          "file": "MERA.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/MERA.mp3"
+        },
+        {
+          "file": "MIDNIGHT DRIVE (Visualizer) Nowhere but Here.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/MIDNIGHT%20DRIVE%20%28Visualizer%29%20Nowhere%20but%20Here.mp3"
+        },
+        {
+          "file": "NAKHRE.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/NAKHRE.mp3"
+        },
+        {
+          "file": "NASHA.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/NASHA.mp3"
+        },
+        {
+          "file": "NEED.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/NEED.mp3"
+        },
+        {
+          "file": "Paani Diyan Challan.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Paani%20Diyan%20Challan.mp3"
+        },
+        {
+          "file": "PAJ NA.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/PAJ%20NA.mp3"
+        },
+        {
+          "file": "Pal Pal.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Pal%20Pal.mp3"
+        },
+        {
+          "file": "PANCHII.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/PANCHII.mp3"
+        },
+        {
+          "file": "Phir Bhi.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Phir%20Bhi.mp3"
+        },
+        {
+          "file": "Phir Mohabbat.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Phir%20Mohabbat.mp3"
+        },
+        {
+          "file": "RAAZ.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/RAAZ.mp3"
+        },
+        {
+          "file": "Rippy.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Rippy.mp3"
+        },
+        {
+          "file": "SAJJNA.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/SAJJNA.mp3"
+        },
+        {
+          "file": "SAMAJH NA AAVE.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/SAMAJH%20NA%20AAVE.mp3"
+        },
+        {
+          "file": "SAVE ME.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/SAVE%20ME.mp3"
+        },
+        {
+          "file": "SAY SOMETHING.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/SAY%20SOMETHING.mp3"
+        },
+        {
+          "file": "Someone Like Me.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Someone%20Like%20Me.mp3"
+        },
+        {
+          "file": "TELL ME.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/TELL%20ME.mp3"
+        },
+        {
+          "file": "TENU LAGGA.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/TENU%20LAGGA.mp3"
+        },
+        {
+          "file": "TERA CHERA.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/TERA%20CHERA.mp3"
+        },
+        {
+          "file": "TERE BIN.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/TERE%20BIN.mp3"
+        },
+        {
+          "file": "TIME.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/TIME.mp3"
+        },
+        {
+          "file": "TOGETHER.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/TOGETHER.mp3"
+        },
+        {
+          "file": "TU.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/TU.mp3"
+        },
+        {
+          "file": "TUNNEL VISION.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/TUNNEL%20VISION.mp3"
+        },
+        {
+          "file": "YAAD.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/YAAD.mp3"
+        },
+        {
+          "file": "Your Eyes.mp3",
+          "url": "https://archive.org/download/non-stop-party-jukebox-2024/Your%20Eyes.mp3"
+        }
       ]
     }
   ]
