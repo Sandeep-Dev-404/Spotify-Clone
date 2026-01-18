@@ -198,7 +198,7 @@ async function openFolder(folder) {
 
   if (currentSongs.length > 0) {
     currentIndex = 0;
-    audio.src = `songs/${folder}/${currentSongs[0]}`;
+    audio.src = `/Spotify-Clone/songs/${encodeURIComponent(folder)}/${encodeURIComponent(currentSongs[0])}`;
     audio.play().catch(() => {});
     const infoEl = q('.songinfo');
     if (infoEl) infoEl.textContent = sanitizeSongDisplayName(currentSongs[0]);
@@ -214,7 +214,7 @@ async function openFolder(folder) {
 function playAt(index) {
   if (index < 0 || index >= currentSongs.length) return;
   currentIndex = index;
-  const src = `songs/${currentFolder}/${currentSongs[index]}`;
+  const src = `/Spotify-Clone/songs/${encodeURIComponent(currentFolder)}/${encodeURIComponent(currentSongs[index])}`;
   audio.src = src;
   audio.play().catch(() => {});
   const infoEl = q('.songinfo');
