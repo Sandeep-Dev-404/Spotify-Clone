@@ -61,6 +61,14 @@ async function playSongs(data) {
   }
 }
 
+async function playSongs() {
+  const response = await fetch('/music-data.json'); // replace with your API or local file path
+  const data = await response.json();
+  for (const folder of data.folders) {
+    await playSong(folder);
+  }
+}
+
 async function playSong(folder) {
   try {
     const { meta, audioUrl } = await loadInfoJson(folder);
@@ -73,13 +81,7 @@ async function playSong(folder) {
 }
 
 // Call the async function to play the songs
-playSongs(data);                                   
-
-// Probe common cover file names
-async function probeCover(folder, info) {
-  // using info.json or directory listing avoids probing images directly and causing 404s
-  if (!folder) return null;
-  }
+playSongs();
 
 
   // 1) prefer explicit path from info.json
