@@ -67,9 +67,13 @@ async function playSong(folder) {
   }
 }
 
+async function main() {
+  const data = await getAllFolders();
+  await playSongs(data);
+}
+
 // Call the async function to play the songs
-const data = await getAllFolders();
-playSongs(data);
+main();
 
   // 1) prefer explicit path from info.json
 playSongs(await getAllFolders());
