@@ -40,7 +40,10 @@ async function loadInfoJson(folder) {
     const res = await fetch(`/Spotify-Clone/songs/${encodeURIComponent(folder)}/info.json`);
     if (!res.ok) return null;
     return await res.json().catch(() => null);
-  } catch (e) { return null; }
+  } catch (e) {
+    console.error('Error loading info.json for folder', folder, e);
+    return null;
+  }
 }
 
 // Probe common cover file names
@@ -343,10 +346,14 @@ async function main() {
   setupControls();
 
   // Debug: print info.json content for each folder (developer-friendly)
-  for (const folder of data.folders) {
+for (const folder of data.folders) {
+  try {
     const meta = await loadInfoJson(folder.name);
     console.log('folder', folder.name, 'info.json ->', meta);
+  } catch (error) {
+    console.error('Error loading info.json for folder', folder.name, error);
   }
+}
 
   // Add an event listener for hamburger
   const hamburger = document.querySelector(".hamburger");
