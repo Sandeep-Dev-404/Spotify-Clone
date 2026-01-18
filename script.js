@@ -198,8 +198,12 @@ async function openFolder(folder) {
 
   if (currentSongs.length > 0) {
     currentIndex = 0;
-    const src = `/Spotify-Clone/songs/${encodeURIComponent(folder)}/${encodeURIComponent(currentSongs[0])}`;
+    const songFile = currentSongs[0];
+    const baseUrl = window.location.origin;
+    const src = `${baseUrl}/Spotify-Clone/songs/${encodeURIComponent(folder)}/${encodeURIComponent(songFile)}`;
     console.log('Opening folder:', folder, 'Loading first song:', src);
+    
+    audio.crossOrigin = 'anonymous';
     audio.src = src;
     
     audio.onerror = function() {
@@ -207,11 +211,15 @@ async function openFolder(folder) {
       console.error('Audio source:', audio.src);
     };
     
+    audio.oncanplay = function() {
+      console.log('Audio can play, duration:', audio.duration);
+    };
+    
     audio.play().catch((err) => {
       console.error('Play error:', err);
     });
     const infoEl = q('.songinfo');
-    if (infoEl) infoEl.textContent = sanitizeSongDisplayName(currentSongs[0]);
+    if (infoEl) infoEl.textContent = sanitizeSongDisplayName(songFile);
     if (playBtn) playBtn.src = 'img/pause.svg';
     const timeEl = q('.songtime');
     if (timeEl) timeEl.textContent = '00:00 / 00:00';
@@ -224,21 +232,29 @@ async function openFolder(folder) {
 function playAt(index) {
   if (index < 0 || index >= currentSongs.length) return;
   currentIndex = index;
-  const src = `/Spotify-Clone/songs/${encodeURIComponent(currentFolder)}/${encodeURIComponent(currentSongs[index])}`;
+  const songFile = currentSongs[index];
+  // Build absolute URL - handle different file name formats
+  const baseUrl = window.location.origin;
+  const src = `${baseUrl}/Spotify-Clone/songs/${encodeURIComponent(currentFolder)}/${encodeURIComponent(songFile)}`;
   console.log('Loading audio:', src);
+  
+  audio.crossOrigin = 'anonymous';
   audio.src = src;
   
-  // Add error handling
   audio.onerror = function() {
     console.error('Failed to load audio. Error code:', audio.error ? audio.error.code : 'unknown');
     console.error('Audio source:', audio.src);
+  };
+  
+  audio.oncanplay = function() {
+    console.log('Audio can play, duration:', audio.duration);
   };
   
   audio.play().catch((err) => {
     console.error('Play error:', err);
   });
   const infoEl = q('.songinfo');
-  if (infoEl) infoEl.textContent = sanitizeSongDisplayName(currentSongs[index]);
+  if (infoEl) infoEl.textContent = sanitizeSongDisplayName(songFile);
   if (playBtn) playBtn.src = 'img/pause.svg';
 }
 
