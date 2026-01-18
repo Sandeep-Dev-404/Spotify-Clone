@@ -198,9 +198,18 @@ async function openFolder(folder) {
 
   if (currentSongs.length > 0) {
     currentIndex = 0;
-    const songFile = currentSongs[0];
-    const baseUrl = window.location.origin;
-    const src = `${baseUrl}/Spotify-Clone/songs/${encodeURIComponent(folder)}/${encodeURIComponent(songFile)}`;
+    const songData = currentSongs[0];
+    
+    // Handle both string filenames and object URLs
+    let songFile = typeof songData === 'string' ? songData : songData.file;
+    let src = typeof songData === 'string' ? null : songData.url;
+    
+    // If no external URL, build local path
+    if (!src) {
+      const baseUrl = window.location.origin;
+      src = `${baseUrl}/Spotify-Clone/songs/${encodeURIComponent(folder)}/${encodeURIComponent(songFile)}`;
+    }
+    
     console.log('Opening folder:', folder, 'Loading first song:', src);
     
     audio.crossOrigin = 'anonymous';
@@ -232,10 +241,18 @@ async function openFolder(folder) {
 function playAt(index) {
   if (index < 0 || index >= currentSongs.length) return;
   currentIndex = index;
-  const songFile = currentSongs[index];
-  // Build absolute URL - handle different file name formats
-  const baseUrl = window.location.origin;
-  const src = `${baseUrl}/Spotify-Clone/songs/${encodeURIComponent(currentFolder)}/${encodeURIComponent(songFile)}`;
+  const songData = currentSongs[index];
+  
+  // Handle both string filenames and object URLs
+  let songFile = typeof songData === 'string' ? songData : songData.file;
+  let src = typeof songData === 'string' ? null : songData.url;
+  
+  // If no external URL, build local path
+  if (!src) {
+    const baseUrl = window.location.origin;
+    src = `${baseUrl}/Spotify-Clone/songs/${encodeURIComponent(currentFolder)}/${encodeURIComponent(songFile)}`;
+  }
+  
   console.log('Loading audio:', src);
   
   audio.crossOrigin = 'anonymous';
