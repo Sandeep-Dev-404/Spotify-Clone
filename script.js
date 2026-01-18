@@ -48,7 +48,14 @@ async function loadInfoJson(folder) {
   }
 }
 
-async function playSongs() {
+// Define data here or fetch it from an API or local file
+const data = {
+  folders: [
+    // your folder data here
+  ]
+};
+
+async function playSongs(data) {
   for (const folder of data.folders) {
     await playSong(folder);
   }
@@ -66,14 +73,17 @@ async function playSong(folder) {
 }
 
 // Call the async function to play the songs
-playSongs();
+playSongs(data);                                   
 
 // Probe common cover file names
 async function probeCover(folder, info) {
   // using info.json or directory listing avoids probing images directly and causing 404s
   if (!folder) return null;
+  }
+}
 
   // 1) prefer explicit path from info.json
+playSongs(await getAllFolders());
   if (info && info.cover) {
     // normalize cover value from info.json
     let raw = String(info.cover).trim();
