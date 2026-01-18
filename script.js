@@ -48,6 +48,12 @@ async function loadInfoJson(folder) {
   }
 }
 
+async function playSongs() {
+  for (const folder of data.folders) {
+    await playSong(folder);
+  }
+}
+
 async function playSong(folder) {
   try {
     const { meta, audioUrl } = await loadInfoJson(folder);
@@ -59,10 +65,8 @@ async function playSong(folder) {
   }
 }
 
-// Usage:
-for (const folder of data.folders) {
-  await playSong(folder);
-}
+// Call the async function to play the songs
+playSongs();
 
 // Probe common cover file names
 async function probeCover(folder, info) {
