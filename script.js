@@ -93,7 +93,8 @@ function parseDirectoryListing(html) {
 // Static hosting version - load from music-data.json
 async function getAllFolders() {
   try {
-    const res = await fetch('./music-data.json');
+    // Add cache-busting query parameter
+    const res = await fetch('./music-data.json?v=' + Date.now());
     if (!res.ok) return [];
     const data = await res.json();
     return data.folders.map(f => f.name);
@@ -103,7 +104,8 @@ async function getAllFolders() {
 // Load folder info from static data
 async function loadFolderData(folder) {
   try {
-    const res = await fetch('./music-data.json');
+    // Add cache-busting query parameter
+    const res = await fetch('./music-data.json?v=' + Date.now());
     if (!res.ok) return null;
     const data = await res.json();
     return data.folders.find(f => f.name === folder);
