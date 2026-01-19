@@ -5,8 +5,8 @@ import urllib.parse
 # Archive.org item ID
 ARCHIVE_ITEM_ID = "non-stop-party-jukebox-2024"
 BASE_URL = f"https://archive.org/download/{ARCHIVE_ITEM_ID}"
-# Use AllOrigins CORS proxy - more reliable than cors.eu.org
-CORS_PROXY = "https://api.allorigins.win/raw?url="
+# Use thingproxy.freeboard.io - more reliable CORS proxy
+CORS_PROXY = "https://thingproxy.freeboard.io/fetch/"
 
 # Read current music-data.json
 with open('music-data.json', 'r', encoding='utf-8') as f:
@@ -25,7 +25,7 @@ for folder in data['folders']:
         # URL encode the filename for Archive.org
         encoded_filename = urllib.parse.quote(filename, safe='')
         archive_url = f"{BASE_URL}/{encoded_filename}"
-        # For AllOrigins, we need to encode the full URL but not double-encode
+        # Use thingproxy format
         url = f"{CORS_PROXY}{archive_url}"
         
         new_songs.append({
@@ -41,7 +41,7 @@ with open('music-data.json', 'w', encoding='utf-8') as f:
 
 print("✓ music-data.json updated successfully!")
 print(f"✓ All songs now point to: {BASE_URL}")
-print(f"✓ Using AllOrigins CORS proxy: {CORS_PROXY}")
+print(f"✓ Using thingproxy CORS proxy: {CORS_PROXY}")
 print(f"✓ Total folders: {len(data['folders'])}")
 print(f"✓ Sample URL: {data['folders'][0]['songs'][0]['url']}")
 
