@@ -212,12 +212,18 @@ async function openFolder(folder) {
     
     console.log('Opening folder:', folder, 'Loading first song:', src);
     
-    audio.crossOrigin = 'anonymous';
+    // Try direct URL first (archive.org should support CORS)
     audio.src = src;
     
     audio.onerror = function() {
       console.error('Failed to load audio. Error code:', audio.error ? audio.error.code : 'unknown');
       console.error('Audio source:', audio.src);
+      // If direct URL fails, try with CORS proxy as fallback
+      if (src.includes('archive.org') && !src.includes('cors')) {
+        const corsUrl = 'https://api.allorigins.win/raw?url=' + encodeURIComponent(src);
+        console.log('Trying CORS proxy fallback:', corsUrl);
+        audio.src = corsUrl;
+      }
     };
     
     audio.oncanplay = function() {
@@ -260,12 +266,18 @@ function playAt(index) {
   
   console.log('Loading audio:', src);
   
-  audio.crossOrigin = 'anonymous';
+  // Try direct URL first (archive.org should support CORS)
   audio.src = src;
   
   audio.onerror = function() {
     console.error('Failed to load audio. Error code:', audio.error ? audio.error.code : 'unknown');
     console.error('Audio source:', audio.src);
+    // If direct URL fails, try with CORS proxy as fallback
+    if (src.includes('archive.org') && !src.includes('cors')) {
+      const corsUrl = 'https://api.allorigins.win/raw?url=' + encodeURIComponent(src);
+      console.log('Trying CORS proxy fallback:', corsUrl);
+      audio.src = corsUrl;
+    }
   };
   
   audio.oncanplay = function() {

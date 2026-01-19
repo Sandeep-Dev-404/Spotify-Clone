@@ -5,14 +5,13 @@ import urllib.parse
 # Archive.org item ID
 ARCHIVE_ITEM_ID = "non-stop-party-jukebox-2024"
 BASE_URL = f"https://archive.org/download/{ARCHIVE_ITEM_ID}"
-# Use thingproxy.freeboard.io - more reliable CORS proxy
-CORS_PROXY = "https://thingproxy.freeboard.io/fetch/"
 
 # Read current music-data.json
 with open('music-data.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
-# Update all songs with Archive.org URLs + CORS proxy
+# Update all songs with direct Archive.org URLs
+# Archive.org should support CORS - if not, we'll add server-side handling
 for folder in data['folders']:
     new_songs = []
     for song in folder['songs']:
@@ -24,9 +23,8 @@ for folder in data['folders']:
         
         # URL encode the filename for Archive.org
         encoded_filename = urllib.parse.quote(filename, safe='')
-        archive_url = f"{BASE_URL}/{encoded_filename}"
-        # Use thingproxy format
-        url = f"{CORS_PROXY}{archive_url}"
+        # Direct Archive.org URL - no CORS proxy needed if we set proper headers
+        url = f"{BASE_URL}/{encoded_filename}"
         
         new_songs.append({
             "file": filename,
@@ -40,8 +38,7 @@ with open('music-data.json', 'w', encoding='utf-8') as f:
     json.dump(data, f, indent=2, ensure_ascii=False)
 
 print("✓ music-data.json updated successfully!")
-print(f"✓ All songs now point to: {BASE_URL}")
-print(f"✓ Using thingproxy CORS proxy: {CORS_PROXY}")
+print(f"✓ All songs now point directly to: {BASE_URL}")
 print(f"✓ Total folders: {len(data['folders'])}")
 print(f"✓ Sample URL: {data['folders'][0]['songs'][0]['url']}")
 
