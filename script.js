@@ -221,8 +221,8 @@ async function openFolder(folder) {
       console.error('Failed to load audio. Error code:', audio.error ? audio.error.code : 'unknown');
       console.error('Audio source:', audio.src);
       // If direct URL fails, try with CORS proxy as fallback
-      if (src.includes('archive.org') && !src.includes('cors')) {
-        const corsUrl = 'https://api.allorigins.win/raw?url=' + encodeURIComponent(src);
+      if (src.includes('archive.org') && !src.includes('allorigins')) {
+        const corsUrl = 'https://api.allorigins.win/raw?url=' + src;
         console.log('Trying CORS proxy fallback:', corsUrl);
         audio.src = corsUrl;
       }
@@ -275,8 +275,8 @@ function playAt(index) {
     console.error('Failed to load audio. Error code:', audio.error ? audio.error.code : 'unknown');
     console.error('Audio source:', audio.src);
     // If direct URL fails, try with CORS proxy as fallback
-    if (src.includes('archive.org') && !src.includes('cors')) {
-      const corsUrl = 'https://api.allorigins.win/raw?url=' + encodeURIComponent(src);
+    if (src.includes('archive.org') && !src.includes('allorigins')) {
+      const corsUrl = 'https://api.allorigins.win/raw?url=' + src;
       console.log('Trying CORS proxy fallback:', corsUrl);
       audio.src = corsUrl;
     }
