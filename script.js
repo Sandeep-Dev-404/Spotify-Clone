@@ -243,9 +243,13 @@ function playAt(index) {
   currentIndex = index;
   const songData = currentSongs[index];
   
+  console.log('PlayAt index:', index, 'Song data:', songData);
+  
   // Handle both string filenames and object URLs
   let songFile = typeof songData === 'string' ? songData : songData.file;
   let src = typeof songData === 'string' ? null : songData.url;
+  
+  console.log('Song file:', songFile, 'URL:', src);
   
   // If no external URL, build local path
   if (!src) {
