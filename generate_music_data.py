@@ -23,10 +23,10 @@ for folder in data['folders']:
             filename = song
         
         # URL encode the filename for Archive.org
-        encoded_filename = urllib.parse.quote(filename)
+        encoded_filename = urllib.parse.quote(filename, safe='')
         archive_url = f"{BASE_URL}/{encoded_filename}"
-        # Encode the full archive URL for the proxy
-        url = f"{CORS_PROXY}{urllib.parse.quote(archive_url)}"
+        # For AllOrigins, we need to encode the full URL but not double-encode
+        url = f"{CORS_PROXY}{archive_url}"
         
         new_songs.append({
             "file": filename,
