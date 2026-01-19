@@ -224,9 +224,10 @@ async function openFolder(folder) {
       console.log('Audio can play, duration:', audio.duration);
     };
     
-    audio.play().catch((err) => {
-      console.error('Play error:', err);
-    });
+    // Don't auto-play - user must click play button (fixes NotAllowedError)
+    // audio.play().catch((err) => {
+    //   console.error('Play error:', err);
+    // });
     const infoEl = q('.songinfo');
     if (infoEl) infoEl.textContent = sanitizeSongDisplayName(songFile);
     if (playBtn) playBtn.src = 'img/pause.svg';
