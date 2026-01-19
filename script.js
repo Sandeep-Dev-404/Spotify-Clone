@@ -4,6 +4,18 @@
 // - Loads songs for clicked folder into the left playlist and selects first song paused
 // - Simple play / pause / prev / next controls
 
+// Suppress non-critical 404 errors in console (images, info.json)
+window.addEventListener('error', (e) => {
+  const msg = e.message || '';
+  const filename = e.filename || '';
+  // Suppress 404 errors for images and info.json
+  if ((filename.includes('.png') || filename.includes('.jpg') || filename.includes('.jpeg') || 
+       filename.includes('info.json') || filename.includes('cover')) && e.type === 'error') {
+    e.preventDefault?.();
+    return true;
+  }
+}, true);
+
 // Utility helpers -----------------------------------------------------------
 const HOST = window.location.origin; // Use current domain for hosting
 
