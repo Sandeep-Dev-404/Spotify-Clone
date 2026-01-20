@@ -2,16 +2,16 @@
 import json
 import urllib.parse
 
-# Backblaze B2 bucket details
-BUCKET_NAME = "github-music-sandeep-dev-404"
-REGION = "s3.us-east-005"
-BASE_URL = f"https://{BUCKET_NAME}.{REGION}.backblazeb2.com"
+# Internet Archive item ID
+ARCHIVE_ITEM_ID = "non-stop-party-jukebox-2024"
+# Use direct streaming URL format that works better with CORS
+BASE_URL = f"https://archive.org/download/{ARCHIVE_ITEM_ID}"
 
 # Read current music-data.json
 with open('music-data.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
-# Update all songs with Backblaze B2 URLs
+# Update all songs with Internet Archive direct URLs
 for folder in data['folders']:
     new_songs = []
     for song in folder['songs']:
@@ -21,9 +21,9 @@ for folder in data['folders']:
         else:
             filename = song
         
-        # URL encode the filename for Backblaze B2
+        # URL encode the filename for Archive.org
         encoded_filename = urllib.parse.quote(filename, safe='')
-        # Backblaze B2 URL
+        # Direct download URL - this format works better
         url = f"{BASE_URL}/{encoded_filename}"
         
         new_songs.append({
@@ -38,7 +38,7 @@ with open('music-data.json', 'w', encoding='utf-8') as f:
     json.dump(data, f, indent=2, ensure_ascii=False)
 
 print("✓ music-data.json updated successfully!")
-print(f"✓ All songs now point to Backblaze B2: {BASE_URL}")
+print(f"✓ All songs now point to Internet Archive: {BASE_URL}")
 print(f"✓ Total folders: {len(data['folders'])}")
 print(f"✓ Sample URL: {data['folders'][0]['songs'][0]['url']}")
 
