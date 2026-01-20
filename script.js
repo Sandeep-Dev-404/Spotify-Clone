@@ -4,17 +4,24 @@
 // - Loads songs for clicked folder into the left playlist and selects first song paused
 // - Simple play / pause / prev / next controls
 
-// Suppress non-critical 404 errors in console (images, info.json)
+// Suppress non-critical 404 errors in console
 window.addEventListener('error', (e) => {
   const msg = e.message || '';
   const filename = e.filename || '';
   // Suppress 404 errors for images and info.json
   if ((filename.includes('.png') || filename.includes('.jpg') || filename.includes('.jpeg') || 
-       filename.includes('info.json') || filename.includes('cover')) && e.type === 'error') {
+       filename.includes('info.json') || filename.includes('cover') || filename.includes('favicon')) && e.type === 'error') {
     e.preventDefault?.();
     return true;
   }
 }, true);
+
+// List of CORS proxies to try in order
+const CORS_PROXIES = [
+  (url) => `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(url)}`,
+  (url) => `https://api.allorigins.win/raw?url=${url}`,
+  (url) => `https://thingproxy.freeboard.io/fetch/${url}`,
+];
 
 // Utility helpers -----------------------------------------------------------
 const HOST = window.location.origin; // Use current domain for hosting
@@ -226,16 +233,21 @@ async function openFolder(folder) {
     
     console.log('Opening folder:', folder, 'Loading first song:', src);
     
-    // Try direct URL first (Backblaze B2 supports CORS natively)
+    // Try direct URL first
     audio.src = src;
+    let proxyIndex = 0;
     
     audio.onerror = function() {
-      console.error('Failed to load audio. Error code:', audio.error ? audio.error.code : 'unknown');
-      console.error('Audio source:', audio.src);
-      // If Backblaze CORS fails, try with CORS proxy
-      if (src.includes('backblazeb2.com') && !src.includes('allorigins')) {
-        const corsUrl = 'https://api.allorigins.win/raw?url=' + src;
-        console.log('Trying CORS proxy fallback:', corsUrl);
+      console.log('Failed to load audio. Error code:', audio.error ? audio.error.code : 'unknown');
+      
+      // Try CORS proxies in order
+      if (proxyIndex < CORS_PROXIES.length && (src.includes('archive.org') || src.includes('backblazeb2.com'))) {
+        const corsUrl = CORS_PROXIES[proxyIndex](src);
+        console.log(`Trying CORS proxy ${proxyIndex + 1}/${CORS_PROXIES.length}: ${corsUrl.substring(0, 80)}...`);
+        audio.src = corsUrl;
+        proxyIndex++;
+      }
+    };
         audio.src = corsUrl;
       }
     };
@@ -280,17 +292,19 @@ function playAt(index) {
   
   console.log('Loading audio:', src);
   
-  // Try direct URL first (Backblaze B2 supports CORS natively)
+  // Try direct URL first
   audio.src = src;
+  let proxyIndex = 0;
   
   audio.onerror = function() {
-    console.error('Failed to load audio. Error code:', audio.error ? audio.error.code : 'unknown');
-    console.error('Audio source:', audio.src);
-    // If Backblaze CORS fails, try with CORS proxy
-    if (src.includes('backblazeb2.com') && !src.includes('allorigins')) {
-      const corsUrl = 'https://api.allorigins.win/raw?url=' + src;
-      console.log('Trying CORS proxy fallback:', corsUrl);
+    console.log('Failed to load audio. Error code:', audio.error ? audio.error.code : 'unknown');
+    
+    // Try CORS proxies in order
+    if (proxyIndex < CORS_PROXIES.length && (src.includes('archive.org') || src.includes('backblazeb2.com'))) {
+      const corsUrl = CORS_PROXIES[proxyIndex](src);
+      console.log(`Trying CORS proxy ${proxyIndex + 1}/${CORS_PROXIES.length}: ${corsUrl.substring(0, 80)}...`);
       audio.src = corsUrl;
+      proxyIndex++;
     }
   };
   
