@@ -8,19 +8,33 @@
 window.addEventListener('error', (e) => {
   const msg = e.message || '';
   const filename = e.filename || '';
-  // Suppress 404 errors for images and info.json
+  // Suppress 404 errors for images, info.json, covers, and favicon
   if ((filename.includes('.png') || filename.includes('.jpg') || filename.includes('.jpeg') || 
-       filename.includes('info.json') || filename.includes('cover') || filename.includes('favicon')) && e.type === 'error') {
+       filename.includes('info.json') || filename.includes('cover') || filename.includes('favicon') ||
+       filename.includes('.webp') || filename.includes('image.png') || filename.includes('Old%20hindi.png')) && 
+      e.type === 'error') {
     e.preventDefault?.();
     return true;
   }
 }, true);
 
-// List of CORS proxies to try in order
+// Also suppress via fetch errors silently
+const originalFetch = window.fetch;
+window.fetch = function(...args) {
+  return originalFetch.apply(this, args).catch(err => {
+    const url = args[0];
+    if (url && (url.includes('info.json') || url.includes('.png') || url.includes('.jpg') || url.includes('.jpeg') || url.includes('cover') || url.includes('favicon'))) {
+      return Promise.resolve(new Response('', { status: 404 }));
+    }
+    throw err;
+  });
+};
+
+// List of CORS proxies to try in order - using more reliable proxies
 const CORS_PROXIES = [
+  (url) => `https://cors.eu.org/?${encodeURIComponent(url)}`,
+  (url) => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
   (url) => `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(url)}`,
-  (url) => `https://api.allorigins.win/raw?url=${url}`,
-  (url) => `https://thingproxy.freeboard.io/fetch/${url}`,
 ];
 
 // Utility helpers -----------------------------------------------------------
@@ -56,7 +70,7 @@ let currentIndex = -1;
 async function loadInfoJson(folder) {
   if (!folder) return null;
   try {
-    const res = await fetch(`/Spotify-Clone/songs/${encodeURIComponent(folder)}/info.json`);
+    const res = await fetch(`/Spotify-Clone/songs/${encodeURIComponent(folder)}/info.json`).catch(() => ({ ok: false }));
     if (!res.ok) return null;
     return await res.json().catch(() => null);
   } catch (e) { return null; }
@@ -80,7 +94,7 @@ async function probeCover(folder, info) {
   }
 
   try {
-    const res = await fetch(`/Spotify-Clone/songs/${encodeURIComponent(folder)}/`);
+    const res = await fetch(`/Spotify-Clone/songs/${encodeURIComponent(folder)}/`).catch(() => ({ ok: false }));
     if (!res.ok) return null;
     const text = await res.text();
     const anchors = parseDirectoryListing(text);
@@ -113,7 +127,7 @@ function parseDirectoryListing(html) {
 async function getAllFolders() {
   try {
     // Add cache-busting query parameter
-    const res = await fetch('./music-data.json?v=' + Date.now());
+    const res = await fetch('./music-data.json?v=' + Date.now()).catch(() => ({ ok: false }));
     if (!res.ok) return [];
     const data = await res.json();
     return data.folders.map(f => f.name);
@@ -124,7 +138,7 @@ async function getAllFolders() {
 async function loadFolderData(folder) {
   try {
     // Add cache-busting query parameter
-    const res = await fetch('./music-data.json?v=' + Date.now());
+    const res = await fetch('./music-data.json?v=' + Date.now()).catch(() => ({ ok: false }));
     if (!res.ok) return null;
     const data = await res.json();
     return data.folders.find(f => f.name === folder);
@@ -258,10 +272,12 @@ async function openFolder(folder) {
     }
     
     audio.onerror = function() {
-      console.log('Failed to load audio. Error code:', audio.error ? audio.error.code : 'unknown');
+      const errCode = audio.error ? audio.error.code : 'unknown';
+      console.log('Failed to load audio. Error code:', errCode);
       
       if ((src.includes('archive.org') || src.includes('backblazeb2.com')) && proxyIndex < CORS_PROXIES.length) {
-        tryLoad();
+        // Add small delay before retry
+        setTimeout(tryLoad, 300);
       }
     };
     
@@ -329,11 +345,13 @@ function playAt(index) {
   }
   
   audio.onerror = function() {
-    console.log('Failed to load audio. Error code:', audio.error ? audio.error.code : 'unknown');
+    const errCode = audio.error ? audio.error.code : 'unknown';
+    console.log('Failed to load audio. Error code:', errCode);
     
     // Only retry CORS proxies for external URLs
     if ((src.includes('archive.org') || src.includes('backblazeb2.com')) && proxyIndex < CORS_PROXIES.length) {
-      tryLoad();
+      // Add small delay before retry
+      setTimeout(tryLoad, 300);
     }
   };
   
