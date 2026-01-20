@@ -232,6 +232,12 @@ async function openFolder(folder) {
     audio.onerror = function() {
       console.error('Failed to load audio. Error code:', audio.error ? audio.error.code : 'unknown');
       console.error('Audio source:', audio.src);
+      // If Backblaze CORS fails, try with CORS proxy
+      if (src.includes('backblazeb2.com') && !src.includes('allorigins')) {
+        const corsUrl = 'https://api.allorigins.win/raw?url=' + src;
+        console.log('Trying CORS proxy fallback:', corsUrl);
+        audio.src = corsUrl;
+      }
     };
     
     audio.oncanplay = function() {
@@ -280,6 +286,12 @@ function playAt(index) {
   audio.onerror = function() {
     console.error('Failed to load audio. Error code:', audio.error ? audio.error.code : 'unknown');
     console.error('Audio source:', audio.src);
+    // If Backblaze CORS fails, try with CORS proxy
+    if (src.includes('backblazeb2.com') && !src.includes('allorigins')) {
+      const corsUrl = 'https://api.allorigins.win/raw?url=' + src;
+      console.log('Trying CORS proxy fallback:', corsUrl);
+      audio.src = corsUrl;
+    }
   };
   
   audio.oncanplay = function() {
