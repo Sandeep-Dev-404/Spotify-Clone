@@ -226,18 +226,12 @@ async function openFolder(folder) {
     
     console.log('Opening folder:', folder, 'Loading first song:', src);
     
-    // Try direct URL first (archive.org should support CORS)
+    // Try direct URL first (Backblaze B2 supports CORS natively)
     audio.src = src;
     
     audio.onerror = function() {
       console.error('Failed to load audio. Error code:', audio.error ? audio.error.code : 'unknown');
       console.error('Audio source:', audio.src);
-      // If direct URL fails, try with CORS proxy as fallback
-      if (src.includes('archive.org') && !src.includes('allorigins')) {
-        const corsUrl = 'https://api.allorigins.win/raw?url=' + src;
-        console.log('Trying CORS proxy fallback:', corsUrl);
-        audio.src = corsUrl;
-      }
     };
     
     audio.oncanplay = function() {
@@ -280,18 +274,12 @@ function playAt(index) {
   
   console.log('Loading audio:', src);
   
-  // Try direct URL first (archive.org should support CORS)
+  // Try direct URL first (Backblaze B2 supports CORS natively)
   audio.src = src;
   
   audio.onerror = function() {
     console.error('Failed to load audio. Error code:', audio.error ? audio.error.code : 'unknown');
     console.error('Audio source:', audio.src);
-    // If direct URL fails, try with CORS proxy as fallback
-    if (src.includes('archive.org') && !src.includes('allorigins')) {
-      const corsUrl = 'https://api.allorigins.win/raw?url=' + src;
-      console.log('Trying CORS proxy fallback:', corsUrl);
-      audio.src = corsUrl;
-    }
   };
   
   audio.oncanplay = function() {
