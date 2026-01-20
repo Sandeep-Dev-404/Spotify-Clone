@@ -233,20 +233,35 @@ async function openFolder(folder) {
     
     console.log('Opening folder:', folder, 'Loading first song:', src);
     
-    // Try direct URL first
-    audio.src = src;
     let proxyIndex = 0;
+    let loadAttempts = 0;
+    const maxAttempts = 1 + CORS_PROXIES.length;
+    
+    function tryLoad() {
+      if (loadAttempts >= maxAttempts) {
+        console.error('All proxy attempts failed');
+        return;
+      }
+      
+      let urlToLoad = src;
+      if (loadAttempts > 0) {
+        urlToLoad = CORS_PROXIES[proxyIndex](src);
+        console.log(`Trying CORS proxy ${proxyIndex + 1}/${CORS_PROXIES.length}: ${urlToLoad.substring(0, 80)}...`);
+        proxyIndex++;
+      } else {
+        console.log('Trying direct URL:', src.substring(0, 80));
+      }
+      
+      loadAttempts++;
+      audio.src = urlToLoad;
+      audio.load();
+    }
     
     audio.onerror = function() {
       console.log('Failed to load audio. Error code:', audio.error ? audio.error.code : 'unknown');
       
-      // Try CORS proxies in order
-      if (proxyIndex < CORS_PROXIES.length && (src.includes('archive.org') || src.includes('backblazeb2.com'))) {
-        const corsUrl = CORS_PROXIES[proxyIndex](src);
-        console.log(`Trying CORS proxy ${proxyIndex + 1}/${CORS_PROXIES.length}: ${corsUrl.substring(0, 80)}...`);
-        audio.src = corsUrl;
-        audio.load();
-        proxyIndex++;
+      if ((src.includes('archive.org') || src.includes('backblazeb2.com')) && proxyIndex < CORS_PROXIES.length) {
+        tryLoad();
       }
     };
     
@@ -254,13 +269,11 @@ async function openFolder(folder) {
       console.log('Audio can play, duration:', audio.duration);
     };
     
-    // Don't auto-play - user must click play button (fixes NotAllowedError)
-    // audio.play().catch((err) => {
-    //   console.error('Play error:', err);
-    // });
+    tryLoad();
+    
     const infoEl = q('.songinfo');
     if (infoEl) infoEl.textContent = sanitizeSongDisplayName(songFile);
-    if (playBtn) playBtn.src = 'img/pause.svg';
+    if (playBtn) playBtn.src = 'img/play.svg';
     const timeEl = q('.songtime');
     if (timeEl) timeEl.textContent = '00:00 / 00:00';
   } else {
@@ -290,20 +303,37 @@ function playAt(index) {
   
   console.log('Loading audio:', src);
   
-  // Try direct URL first
-  audio.src = src;
   let proxyIndex = 0;
+  let loadAttempts = 0;
+  const maxAttempts = 1 + CORS_PROXIES.length;
+  
+  function tryLoad() {
+    if (loadAttempts >= maxAttempts) {
+      console.error('All proxy attempts failed');
+      return;
+    }
+    
+    let urlToLoad = src;
+    if (loadAttempts > 0) {
+      // Use proxy for attempts after the first
+      urlToLoad = CORS_PROXIES[proxyIndex](src);
+      console.log(`Trying CORS proxy ${proxyIndex + 1}/${CORS_PROXIES.length}: ${urlToLoad.substring(0, 80)}...`);
+      proxyIndex++;
+    } else {
+      console.log('Trying direct URL:', src.substring(0, 80));
+    }
+    
+    loadAttempts++;
+    audio.src = urlToLoad;
+    audio.load();
+  }
   
   audio.onerror = function() {
     console.log('Failed to load audio. Error code:', audio.error ? audio.error.code : 'unknown');
     
-    // Try CORS proxies in order
-    if (proxyIndex < CORS_PROXIES.length && (src.includes('archive.org') || src.includes('backblazeb2.com'))) {
-      const corsUrl = CORS_PROXIES[proxyIndex](src);
-      console.log(`Trying CORS proxy ${proxyIndex + 1}/${CORS_PROXIES.length}: ${corsUrl.substring(0, 80)}...`);
-      audio.src = corsUrl;
-      audio.load();
-      proxyIndex++;
+    // Only retry CORS proxies for external URLs
+    if ((src.includes('archive.org') || src.includes('backblazeb2.com')) && proxyIndex < CORS_PROXIES.length) {
+      tryLoad();
     }
   };
   
@@ -311,9 +341,11 @@ function playAt(index) {
     console.log('Audio can play, duration:', audio.duration);
   };
   
+  tryLoad();
   audio.play().catch((err) => {
     console.error('Play error:', err);
   });
+  
   const infoEl = q('.songinfo');
   if (infoEl) infoEl.textContent = sanitizeSongDisplayName(songFile);
   if (playBtn) playBtn.src = 'img/pause.svg';
