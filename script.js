@@ -245,10 +245,8 @@ async function openFolder(folder) {
         const corsUrl = CORS_PROXIES[proxyIndex](src);
         console.log(`Trying CORS proxy ${proxyIndex + 1}/${CORS_PROXIES.length}: ${corsUrl.substring(0, 80)}...`);
         audio.src = corsUrl;
+        audio.load();
         proxyIndex++;
-      }
-    };
-        audio.src = corsUrl;
       }
     };
     
@@ -304,6 +302,7 @@ function playAt(index) {
       const corsUrl = CORS_PROXIES[proxyIndex](src);
       console.log(`Trying CORS proxy ${proxyIndex + 1}/${CORS_PROXIES.length}: ${corsUrl.substring(0, 80)}...`);
       audio.src = corsUrl;
+      audio.load();
       proxyIndex++;
     }
   };
