@@ -37,7 +37,7 @@ let currentIndex = -1;
 async function loadInfoJson(folder) {
   if (!folder) return null;
   try {
-    const res = await fetch(`/Spotify-Clone/songs/${encodeURIComponent(folder)}/info.json`);
+    const res = await fetch(`/songs/${encodeURIComponent(folder)}/info.json`);
     if (!res.ok) return null;
     return await res.json().catch(() => null);
   } catch (e) { return null; }
@@ -61,7 +61,7 @@ async function probeCover(folder, info) {
   }
 
   try {
-    const res = await fetch(`/Spotify-Clone/songs/${encodeURIComponent(folder)}/`);
+    const res = await fetch(`/songs/${encodeURIComponent(folder)}/`);
     if (!res.ok) return null;
     const text = await res.text();
     const anchors = parseDirectoryListing(text);
@@ -72,13 +72,13 @@ async function probeCover(folder, info) {
       return raw.split('/').filter(Boolean).pop();
     }).filter(Boolean);
 
-    const preferred = ['cover.jpg', 'cover.png', 'cover.webp', 'cover.jpeg', 'folder.jpg', 'folder.png'];
+    const preferred = ['cover.jpg', 'cover.png', 'cover.webp', 'cover.webp', 'cover.jpeg', 'folder.jpg', 'folder.png'];
     for (const n of preferred) {
-      if (files.includes(n)) return `/Spotify-Clone/songs/${encodeURIComponent(folder)}/${encodeURIComponent(n)}`;
+      if (files.includes(n)) return `/songs/${encodeURIComponent(folder)}/${encodeURIComponent(n)}`;
     }
 
     const imgFile = files.find(f => f.toLowerCase().match(/\.(jpg|jpeg|png|webp|gif)$/));
-    if (imgFile) return `/Spotify-Clone/songs/${encodeURIComponent(folder)}/${encodeURIComponent(imgFile)}`;
+    if (imgFile) return `/songs/${encodeURIComponent(folder)}/${encodeURIComponent(imgFile)}`;
   } catch (e) { return null; }
   return null;
 }
@@ -202,18 +202,15 @@ async function openFolder(folder) {
     
     // Handle both string filenames and object URLs
     let songFile = typeof songData === 'string' ? songData : songData.file;
-    let src = typeof songData === 'string' ? null : songData.url;
     
-    // If no external URL, build local path
-    if (!src) {
-      const baseUrl = window.location.origin;
-      src = `${baseUrl}/Spotify-Clone/songs/${encodeURIComponent(folder)}/${encodeURIComponent(songFile)}`;
-    }
+    // Always use local path from /songs/ directory
+    const baseUrl = window.location.origin;
+    let src = `${baseUrl}/songs/${encodeURIComponent(folder)}/${encodeURIComponent(songFile)}`;
     
     console.log('Opening folder:', folder, 'Loading first song:', src);
     
-    audio.crossOrigin = 'anonymous';
     audio.src = src;
+    audio.crossOrigin = 'anonymous';
     
     audio.onerror = function() {
       console.error('Failed to load audio. Error code:', audio.error ? audio.error.code : 'unknown');
@@ -245,18 +242,15 @@ function playAt(index) {
   
   // Handle both string filenames and object URLs
   let songFile = typeof songData === 'string' ? songData : songData.file;
-  let src = typeof songData === 'string' ? null : songData.url;
   
-  // If no external URL, build local path
-  if (!src) {
-    const baseUrl = window.location.origin;
-    src = `${baseUrl}/Spotify-Clone/songs/${encodeURIComponent(currentFolder)}/${encodeURIComponent(songFile)}`;
-  }
+  // Always use local path from /songs/ directory
+  const baseUrl = window.location.origin;
+  let src = `${baseUrl}/songs/${encodeURIComponent(currentFolder)}/${encodeURIComponent(songFile)}`;
   
   console.log('Loading audio:', src);
   
-  audio.crossOrigin = 'anonymous';
   audio.src = src;
+  audio.crossOrigin = 'anonymous';
   
   audio.onerror = function() {
     console.error('Failed to load audio. Error code:', audio.error ? audio.error.code : 'unknown');
