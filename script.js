@@ -6,6 +6,7 @@
 
 // Utility helpers -----------------------------------------------------------
 const HOST = window.location.origin; // Use current domain for hosting
+const BASE_PATH = window.location.pathname.replace(/\/[^\/]*$/, '/'); // Get the base path
 
 function q(sel) { return document.querySelector(sel); }
 function qAll(sel) { return Array.from(document.querySelectorAll(sel)); }
@@ -191,21 +192,23 @@ async function openFolder(folder) {
   ul.innerHTML = '';
   currentSongs.forEach((s, i) => {
     const li = document.createElement('li');
-    li.innerHTML = `<img class="invert" width="34" src="img/music.svg" alt=""><div class="info"><div>${sanitizeSongDisplayName(s)}</div><div></div></div><div class="playnow"><span>Play Now</span><img class="invert" src="img/play.svg" alt=""></div>`;
+    li.innerHTML = `<img class="invert" width="34" src="img/music.svg" alt=""><div class="info"><div>${sanitizeSongDisplayName(typeof s === 'string' ? s : s.file)}</div><div></div></div><div class="playnow"><span>Play Now</span><img class="invert" src="img/play.svg" alt=""></div>`;
     li.addEventListener('click', () => playAt(i));
     ul.appendChild(li);
   });
 
   if (currentSongs.length > 0) {
     currentIndex = 0;
+    // Add active class to first song
+    const firstLi = ul.querySelector('li');
+    if (firstLi) firstLi.classList.add('active');
     const songData = currentSongs[0];
     
     // Handle both string filenames and object URLs
-    let songFile = typeof songData === 'string' ? songData : songData.file;
+    let songFile = typeof songData === 'string' ? songData + '.mp3' : songData.file;
     
     // Always use local path from /songs/ directory
-    const baseUrl = window.location.origin;
-    let src = `${baseUrl}/songs/${encodeURIComponent(folder)}/${encodeURIComponent(songFile)}`;
+    let src = HOST + BASE_PATH + 'songs/' + encodeURIComponent(folder) + '/' + encodeURIComponent(songFile);
     
     console.log('Opening folder:', folder, 'Loading first song:', src);
     
@@ -238,14 +241,20 @@ async function openFolder(folder) {
 function playAt(index) {
   if (index < 0 || index >= currentSongs.length) return;
   currentIndex = index;
+  // Remove active class from all li
+  const ul = q('.songlist ul');
+  if (ul) {
+    ul.querySelectorAll('li').forEach(li => li.classList.remove('active'));
+    const currentLi = ul.children[index];
+    if (currentLi) currentLi.classList.add('active');
+  }
   const songData = currentSongs[index];
   
   // Handle both string filenames and object URLs
-  let songFile = typeof songData === 'string' ? songData : songData.file;
+  let songFile = typeof songData === 'string' ? songData + '.mp3' : songData.file;
   
   // Always use local path from /songs/ directory
-  const baseUrl = window.location.origin;
-  let src = `${baseUrl}/songs/${encodeURIComponent(currentFolder)}/${encodeURIComponent(songFile)}`;
+  let src = HOST + BASE_PATH + 'songs/' + encodeURIComponent(currentFolder) + '/' + encodeURIComponent(songFile);
   
   console.log('Loading audio:', src);
   
